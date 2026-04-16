@@ -74,7 +74,7 @@ Friston describes this through the concept of **active inference**: the system a
 
 Our lives follow the same principle. An unresolved situation, a lie requiring memory to maintain, a job that contradicts one's nature — these are active processes that continuously consume resources, increasing the system's overall cognitive load without producing useful output.
 
-The minimization of cost described by this theory is always local and contextual, not global and absolute. The system does not tend toward a final universal equilibrium: it tends toward states of lower cost in the specific context in which it operates at that moment. When that context changes, the geodesic reorganizes.
+The minimization of cognitive cost described by Quantum Fatalism is always local and contextual, not global and absolute. There is no final equilibrium to tend toward: there is only the minimum cost available now, in this system, with this configuration. When the context changes, the geodesic does not reorganize — it reconfigures instantaneously, like a rainbow that shifts.
 
 The system never explicitly certifies which choice is correct. But it constantly provides the cost of each configuration through acute surprisal and chronic cognitive load. Learning to distinguish the two signals and read both is the work that allows one to recognize the moment when the system is permeable to change.
 
@@ -165,7 +165,7 @@ In Friston's language, the compromised peculiar state is a generative model that
 
 #### 3.3 The Instantaneous Geodesic and Probabilistic Perception
 
-The geodesic in Quantum Fatalism is instantaneous, like a rainbow. It describes the path of least resistance available at this moment, in this system, with this peculiar state. It continuously reorganizes in response to variations in the field. It is not a trajectory toward a distant goal planned in advance.
+The geodesic in Quantum Fatalism is instantaneous, like a rainbow. It describes the path of least resistance available at this moment, in this system, with this peculiar state. It reconfigures instantaneously in response to variations in the field. It is not a trajectory toward a distant goal planned in advance.
 
 But the individual does not see the geodesic in its entirety. They perceive a probability distribution: a direction, a tendency, a sense of where the system is heading without a clear view of where it will end.
 
