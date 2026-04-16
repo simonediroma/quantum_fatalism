@@ -74,7 +74,7 @@ Friston descrive questo attraverso il concetto di **inferenza attiva**: il siste
 
 Le nostre vite seguono lo stesso principio. Una situazione irrisolta, una menzogna che richiede memoria per essere coperta, un lavoro che contraddice la propria natura, sono processi attivi che consumano risorse in modo continuo, aumentando il carico cognitivo complessivo del sistema senza produrre output utile.
 
-La minimizzazione del costo descritta da questa teoria è sempre locale e contestuale, non globale e assoluta. Il sistema non tende verso un equilibrio finale universale: tende verso stati di minore costo nel contesto specifico in cui opera in quel momento. Quando quel contesto cambia, la geodetica si riorganizza.
+La minimizzazione del costo descritta da questa teoria è sempre locale e contestuale, non globale e assoluta. Il sistema non tende verso un equilibrio finale universale: tende verso stati di minore costo nel contesto specifico in cui opera in quel momento. Quando il contesto cambia, la geodetica non si riorganizza — si riconfigura istantaneamente, come un arcobaleno che si sposta.
 
 Il sistema non certifica mai esplicitamente quale sia la scelta giusta. Ma fornisce costantemente il costo di ogni configurazione attraverso il surprisal acuto e il carico cognitivo cronico. Imparare a distinguere i due segnali e a leggere entrambi è il lavoro che permette di riconoscere il momento in cui il sistema è permeabile al cambiamento.
 
