@@ -99,7 +99,9 @@ Alta qualità dell'attenzione significa alta precisione dei segnali in entrata: 
 
 Bassa qualità dell'attenzione significa bassa precisione dei segnali in entrata: il sistema è rigido, sopprime i dati che contraddicono il modello preesistente, preferisce mantenere la coerenza interna al costo di aumentare il carico cognitivo reale.
 
-La qualità dell'attenzione non è fissa. Si costruisce progressivamente attraverso ogni esperienza attraversata con permeabilità. Ogni volta che il sistema accetta un aggiornamento del modello invece di sopprimerlo, la sua capacità di pesare correttamente i segnali futuri aumenta. Ogni volta che lo sopprime, quella capacità si riduce.
+Va però precisato che la permeabilità non è un bene monotono. Un sistema che aggiornasse il proprio modello a ogni singolo dato, senza alcuna resistenza, non avrebbe più un modello: ogni esperienza cancellerebbe la precedente e nessuna struttura potrebbe accumularsi. La rigidità totale e la permeabilità totale sono due patologie simmetriche, non gli estremi di una scala che va dal peggio al meglio. La qualità dell'attenzione è la capacità di pesare correttamente ogni segnale: aggiornare il modello quando il segnale lo richiede, conservarlo quando il segnale è rumore. Ha un ottimo, non un massimo. È l'imprinting, con i suoi prior rigidi, a fornire la stabilità su cui la permeabilità può lavorare senza dissolvere il sistema.
+
+La qualità dell'attenzione non è fissa. Si costruisce progressivamente attraverso ogni esperienza attraversata con la permeabilità adeguata a quel segnale. Ogni volta che il sistema pesa correttamente un aggiornamento, accettandolo o rifiutandolo per la ragione giusta, la sua capacità di pesare i segnali futuri aumenta. Ogni volta che sopprime per difesa o accetta per inerzia, quella capacità si riduce.
 
 #### 2.3 L'imprinting e il punto di partenza
 
@@ -123,7 +125,7 @@ Lo stato peculiare non si deteriora in modo binario. Si degrada lungo un continu
 
 Il primo meccanismo è la **riduzione del carico cognitivo complessivo**: l'individuo si ritira temporaneamente dal campo che genera la discrepanza. Il sistema trova un momento di quiete, una configurazione stabile a bassa entropia locale. Non è guarigione strutturale: è sospensione necessaria per recuperare le risorse prima di affrontare nuovamente la discrepanza.
 
-Il secondo meccanismo è la **permeabilità**: l'individuo decide di aggiornare il proprio modello generativo invece di difenderlo. Accetta i dati che contraddicono il modello attuale, elabora il carico cognitivo accumulato, intraprende un percorso di adeguamento. Produce una modifica strutturale permanente dello stato peculiare.
+Il secondo meccanismo è la **permeabilità**, intesa nel senso della sezione 2.2: aggiornamento quando il segnale lo richiede, non apertura indiscriminata. L'individuo decide di aggiornare il proprio modello generativo invece di difenderlo. Accetta i dati che contraddicono il modello attuale, elabora il carico cognitivo accumulato, intraprende un percorso di adeguamento. Produce una modifica strutturale permanente dello stato peculiare.
 
 I due meccanismi non sono alternativi ma sequenziali. La riduzione del carico cognitivo crea lo spazio necessario per la permeabilità. E anche questo processo segue la stessa logica autosimilare: il modo in cui un individuo gestisce una piccola rigidità del proprio modello generativo rispecchia geometricamente il modo in cui gestirà le grandi rigidità, e il modo in cui un sistema collettivo gestisce le proprie crisi rispecchia il modo in cui i singoli individui gestiscono le proprie.
 
@@ -286,7 +288,7 @@ Siamo partiti da una bolla di sapone e da un raggio di luce. Abbiamo attraversat
 
 Il fatalismo quantico propone una forma di **stoicismo computazionale**. Non la rassegnazione di chi accetta il destino perché non può cambiarlo, ma la precisione di chi conosce il sistema in cui opera: sa dove intervenire, quando farlo, e dove l'energia produce modifiche strutturali invece di dissiparsi senza effetto. È una teoria descrittiva: non prescrive come vivere, non giudica le scelte, non distingue tra esiti buoni e cattivi. Descrive la struttura del costo nel sistema in cui le scelte avvengono.
 
-Ogni individuo porta in ogni sistema il proprio stato peculiare: non un archivio di esperienze quantitative, ma la qualità dell'attenzione con cui ha attraversato ciò che ha vissuto. Questo stato peculiare determina quali segnali il sistema è strutturalmente attrezzato a ricevere. Non è un destino fisso: si espande attraverso ogni evento attraversato con attenzione aperta, indipendentemente dal contesto in cui quell'evento è avvenuto. E si forma a partire dall'imprinting, dai prior iniziali costruiti nelle fasi precoci dell'esistenza, che sono il materiale più grezzo e più riconoscibile su cui il lavoro di permeabilità può agire.
+Ogni individuo porta in ogni sistema il proprio stato peculiare: non un archivio di esperienze quantitative, ma la qualità dell'attenzione con cui ha attraversato ciò che ha vissuto. Questo stato peculiare determina quali segnali il sistema è strutturalmente attrezzato a ricevere. Non è un destino fisso: si espande attraverso ogni evento attraversato con attenzione correttamente calibrata, indipendentemente dal contesto in cui quell'evento è avvenuto. E si forma a partire dall'imprinting, dai prior iniziali costruiti nelle fasi precoci dell'esistenza, che sono il materiale più grezzo e più riconoscibile su cui il lavoro di permeabilità può agire.
 
 Il sistema non certifica mai nulla in tempo reale. Quello che fornisce è il segnale del costo, attraverso il surprisal acuto e il carico cognitivo cronico. Distinguere i due, imparare a leggerli entrambi, è il lavoro che permette di riconoscere il momento in cui il sistema è permeabile al cambiamento.
 
@@ -308,6 +310,8 @@ Il fatalismo quantico è il punto di convergenza di intuizioni che attraversano 
 **Baruch Spinoza, Etica**: Spinoza dimostrò che la libertà non è il libero arbitrio, che è il prodotto dell'ignoranza delle cause, ma la comprensione della necessità. La sua visione di *Deus sive Natura* è il precursore filosofico del sistema descritto in questo saggio.
 
 **Bernhard Riemann**: senza la sua geometria dello spazio curvo non potremmo concepire il destino come geodetica né l'equilibrio esistenziale come linea critica.
+
+**Diederik Kingma e Max Welling, autocodificatori variazionali**: i modelli che apprendono uno spazio latente minimizzando esattamente l'energia libera variazionale di Friston. Insieme ai lavori di Georgios Arvanitidis sulle geodetiche nello spazio latente, forniscono il modello computazionale sviluppato nell'Appendice III.
 
 **Roger Penrose e Stuart Hameroff, teoria Orch-OR**: la proposta che la coscienza nasca da processi quantistici nei microtubuli cerebrali fornisce una base biologica all'idea che la mente sia connessa alla geometria fondamentale della realtà.
 
@@ -338,13 +342,44 @@ Il Free Energy Principle, formulato dal neuroscienziato Karl Friston a partire d
 
 **Inferenza attiva e fatica produttiva**: Friston distingue due modalità di riduzione dell'energia libera: l'aggiornamento del modello interno in risposta alla realtà, e l'inferenza attiva, ovvero l'azione sull'ambiente per renderlo più coerente con le proprie aspettative. L'inferenza attiva efficace è quella compiuta nel momento in cui il sistema è permeabile. È la distinzione tra fatica produttiva e fatica sterile espressa in termini neurobiologici.
 
-**Modello generativo, stato peculiare e qualità dell'attenzione**: nel Free Energy Principle, ogni individuo porta in ogni sistema un modello generativo preesistente. Il fatalismo quantico chiama questa struttura stato peculiare, precisando che non si misura nella quantità delle esperienze accumulate ma nella qualità dell'attenzione con cui ciascuna è stata attraversata. Friston descrive questa qualità attraverso la precisione delle credenze: la misura con cui il sistema è disposto ad aggiornare il proprio modello in risposta a nuovi dati.
+**Modello generativo, stato peculiare e qualità dell'attenzione**: nel Free Energy Principle, ogni individuo porta in ogni sistema un modello generativo preesistente. Il fatalismo quantico chiama questa struttura stato peculiare, precisando che non si misura nella quantità delle esperienze accumulate ma nella qualità dell'attenzione con cui ciascuna è stata attraversata. Friston descrive questa qualità attraverso la precisione delle credenze: la misura con cui il sistema è disposto ad aggiornare il proprio modello in risposta a nuovi dati. Sul limite della permeabilità, vedi sezione 2.2 e Appendice III.
 
 **Insieme attrattore e geodetica**: Friston descrive ogni sistema biologico come dotato di un insieme attrattore: un insieme di stati verso cui il sistema tende naturalmente. È il corrispettivo diretto della geodetica nel fatalismo quantico. Quando lo stato peculiare è compromesso, l'insieme attrattore può diventare patologico: il sistema minimizza il surprisal localmente attraverso configurazioni che producono alto costo nel sistema più ampio.
 
 **Transizione di fase collettiva e saturazione del campo**: Friston ha esteso il framework ai sistemi collettivi attraverso il concetto di inferenza federata. Il fatalismo quantico descrive questo come saturazione del campo: non propagazione attraverso connessioni discrete ma addensamento continuo di densità informativa fino alla scarica sui nodi strutturalmente compatibili.
 
 **Garbage Collection e dissoluzione consapevole**: Friston descrive la necessità periodica per i sistemi biologici di eliminare strutture obsolete. Il fatalismo quantico applica questo alla dissoluzione consapevole dei sistemi condivisi: quando entrambi i nodi aggiornano simultaneamente il proprio modello generativo riconoscendo che il sistema condiviso ha esaurito la sua funzione, la dissoluzione è una transizione di fase a basso costo. L'entropia generata dalla dissoluzione non appartiene ai singoli nodi ma al campo, dove può essere dissipata da qualsiasi nodo presente con stato peculiare a bassa resistenza.
+
+---
+
+## Appendice III
+### Lo spazio latente: un modello computazionale del singolo nodo
+
+Nell'apprendimento automatico contemporaneo, una rete neurale rappresenta i dati che elabora come punti in uno spazio a molte dimensioni chiamato **spazio latente**. In questo spazio la distanza misura la somiglianza, le direzioni hanno significato, e la geometria complessiva non è progettata ma appresa: emerge dall'addestramento, cioè dalla minimizzazione progressiva di una funzione di costo. Questo spazio offre al fatalismo quantico qualcosa che le analogie fisiche del saggio non forniscono: un sistema esistente e misurabile in cui il costo modella la geometria, il movimento segue la geometria e la fatica utile agisce sulla geometria anziché sul movimento.
+
+Il parallelo va però usato con una precisazione preliminare. Lo spazio latente così come viene costruito nella pratica è una struttura rigida: viene addestrato una volta e poi utilizzato, immobile, per interpretare i dati successivi. Il fatalismo quantico descrive l'opposto. Il campo è uno spazio latente in **addestramento continuo**: ogni esperienza vissuta da ogni nodo è un passo di aggiornamento della geometria condivisa. La geodetica è istantanea proprio per questo: non perché il percorso sia breve, ma perché la superficie su cui viene calcolata cambia a ogni istante. Nel linguaggio dell'apprendimento automatico il fenomeno ha un nome, apprendimento continuo, e un problema noto, l'oblio catastrofico, che il saggio ha già incontrato sotto altra forma nella sezione 2.2.
+
+Con questa correzione, i punti di contatto sono i seguenti.
+
+**Spazio cognitivo e varietà latente.** Il Capitolo V descrive lo spazio cognitivo come varietà riemanniana curvata dalle esperienze. Lo spazio latente di una rete è una varietà con una metrica appresa, e le geodetiche su questa varietà sono oggetti matematici concretamente calcolabili.
+
+**Funzione di costo ed energia libera.** Una classe di modelli, gli autocodificatori variazionali, è addestrata minimizzando esattamente l'energia libera variazionale, la stessa grandezza che Friston pone al centro del Free Energy Principle. La convergenza con l'Appendice II non è quindi analogica: è la stessa equazione. Resta valida la nota epistemica dell'Introduzione: questa identità vale al livello informazionale del costo, non al livello esistenziale. E resta un impegno teorico da dichiarare: perché il parallelo tenga senza reintrodurre un progettista esterno, la funzione di costo del campo deve essere l'energia libera stessa, cioè una condizione di esistenza del sistema, non un obiettivo scelto da qualcuno. Il parallelo si appoggia quindi al Free Energy Principle, non all'ingegneria.
+
+**Fatica produttiva e addestramento.** La distinzione della sezione 1.3 ha un corrispettivo esatto. Addestrare la rete modifica la geometria; interrogarla a pesi congelati si muove dentro una geometria data. Forzare un risultato a pesi congelati, contro la distribuzione appresa, è fatica sterile: produce costo senza modificare nulla di permanente.
+
+**Imprinting e pre-addestramento.** I pesi appresi nelle prime fasi dell'addestramento sono i più difficili da rimuovere e riaffiorano in ogni dominio successivo. È la proprietà paradossale dell'imprinting descritta nella sezione 2.3: i prior più rigidi e i più riconoscibili. Nel modello computazionale svolgono la funzione di regolarizzatore: senza di essi l'addestramento continuo dissolverebbe la struttura.
+
+**Qualità dell'attenzione e plasticità.** La precisione delle credenze della sezione 2.2 corrisponde al tasso con cui ciascun nodo lascia che un nuovo dato modifichi i propri pesi. Il dilemma tra stabilità e plasticità, centrale nell'apprendimento continuo, è la ragione formale per cui la permeabilità ha un ottimo e non un massimo.
+
+**Impulso e minimo locale.** L'attrattore patologico della sezione 3.2 è un minimo locale della funzione di costo: una configurazione a bassa energia locale che produce alto costo nel sistema complessivo.
+
+**Percezione probabilistica.** La sezione 3.3 sostiene che l'individuo non percepisce la geodetica ma una distribuzione di probabilità su di essa, e che questa visione parziale è la configurazione a minima energia della percezione. Gli autocodificatori variazionali restituiscono una distribuzione, non un punto, per la stessa ragione: la rappresentazione puntuale è instabile e costosa.
+
+**Saturazione del campo.** In uno spazio latente condiviso e in addestramento continuo, gli aggiornamenti si accumulano deformando gradualmente la geometria fino a che una regione cambia natura: una collina diventa una valle. Il cambiamento è istantaneo per l'intero spazio, ma lo percepiscono solo i nodi che si trovano nella regione deformata. Questo fornisce alla sezione 3.4 una definizione operativa di compatibilità strutturale: un nodo è strutturalmente compatibile con un segnale quando è posizionato dove la curvatura è cambiata. Ed è coerente con la simultaneità geodetica della sezione 4.4: il campo si è già riorganizzato per tutti; il ritardo è solo nella ricezione.
+
+**Due livelli.** Il modello richiede una distinzione che il saggio usa implicitamente e che qui va resa esplicita. Il **campo** è lo spazio latente condiviso, addestrato dalle esperienze di tutti i nodi. Lo **stato peculiare** è il codificatore personale: la struttura con cui ciascun nodo proietta le proprie esperienze in quel campo. Un'epifania è una regione che si è aperta nel campo; che il singolo la riceva dipende dalla risoluzione del suo codificatore in quel dominio. È la spiegazione del terzo livello di intensità della sezione 3.1: il segnale arriva, ma il codificatore non ha ancora la struttura per leggerlo.
+
+**I limiti del modello.** Lo spazio latente modella il singolo nodo e la geometria che lo contiene. Non modella l'interazione tra nodi: il Capitolo IV, con i modelli delle onde e del campo, resta privo di corrispettivo. Non ha struttura frattale in alcun senso dimostrato, e quindi non copre la sezione 5.2. E non ha nulla di quantistico: è un sistema classico e statistico, in cui la sovrapposizione di stati è una distribuzione di probabilità. Il termine "quantico" del titolo descrive la struttura della scelta come collasso, non la natura fisica del campo.
 
 ---
 
