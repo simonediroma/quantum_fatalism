@@ -349,5 +349,6 @@ The Free Energy Principle, formulated by neuroscientist Karl Friston from the mi
 ---
 
 *The Universe at Minimum Energy — Theory and Metaphysics of Quantum Fatalism*
-*Concepts and theoretical framework: human author*
+*Concepts and theoretical framework: Simone Razzano*
 *Writing, formalization, and argumentative development: produced in collaboration with Claude (Anthropic)*
+*© Simone Razzano — Licensed under CC BY-NC-ND 4.0, no commercial use. See LICENSE.*

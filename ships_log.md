@@ -1,13 +1,13 @@
 # Ship's Log
 ## How "The Universe at Minimum Energy" Was Written
 
-*An essay written by a human author and Claude (Anthropic)*
+*An essay written by Simone Razzano and Claude (Anthropic)*
 
 ---
 
 ### A Note on Attribution
 
-This essay is the product of an explicit collaboration between a human author and Claude, a language model developed by Anthropic. The concepts, theoretical framework, original intuitions, foundational metaphors, and responses to criticism belong to the human author. The writing, argumentative formalization, chapter structure, and integration with scientific and philosophical literature were produced by Claude over the course of an extended conversation.
+This essay is the product of an explicit collaboration between Simone Razzano and Claude, a language model developed by Anthropic. The concepts, theoretical framework, original intuitions, foundational metaphors, and responses to criticism belong to the author, Simone Razzano. The writing, argumentative formalization, chapter structure, and integration with scientific and philosophical literature were produced by Claude over the course of an extended conversation.
 
 This document tells that story.
 
@@ -118,4 +118,4 @@ Intermediate versions have value. Each version captured a state of the theory. G
 ---
 
 *Ship's Log for "The Universe at Minimum Energy"*
-*Writing process: extended conversation between human author and Claude (Anthropic)*
+*Writing process: extended conversation between Simone Razzano and Claude (Anthropic)*
