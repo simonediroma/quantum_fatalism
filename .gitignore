@@ -1,0 +1,4 @@
+# La cache ElevenLabs (podcast/cache/) è committata di proposito: evita di riconsumare crediti tra una sessione e l altra.
+podcast/voices/
+__pycache__/
+podcast/*.zip
