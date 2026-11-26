@@ -56,6 +56,8 @@ Writing, formalization, and argumentative development: produced in collaboration
 
 © Simone Razzano. The essay, the writing logs and all exported versions (PDF, EPUB, podcast) are licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). The method guide (`CLAUDE.md`) and the `skills/` folder are licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). No commercial use without a written agreement with the author. Details in [`LICENSE`](LICENSE).
 
+Contact: simone.razzano@gmail.com
+
 ---
 
 *"Not a destination, but a direction."*
