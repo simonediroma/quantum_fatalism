@@ -1,0 +1,6 @@
+id: "precisione-delle-credenze"
+name: "Precisione delle credenze"
+summary: "La misura con cui il sistema è disposto ad aggiornare il modello invece di sopprimere i dati (Friston)."
+traits:
+  - {text: "Descrive la qualità dell'attenzione nel FEP", source: "c3:18", quote: "Friston la descrive attraverso il concetto di **precisione delle credenze**"}
+  - {text: "Ripresa nell'Appendice II", source: "c9:14", quote: "Friston descrive questa qualità attraverso la precisione delle credenze"}

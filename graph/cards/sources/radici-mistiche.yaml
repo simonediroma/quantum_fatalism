@@ -1,0 +1,9 @@
+id: "radici-mistiche"
+name: "Radici mistiche"
+summary: "Wu wei taoista, Sama sufi e Shiva Nataraja come antenati concettuali del principio di minima azione."
+traits:
+  - {text: "Wu wei: l'azione senza sforzo come antenato del principio di minima azione", source: "c8:34", quote: "**Lao Tzu e il taoismo, wu wei**"}
+  - {text: "Sama: tecnica per ridurre l'entropia del sistema nervoso", source: "c8:36", quote: "**Sufismo e dervisci rotanti**"}
+  - {text: "Shiva Nataraja: distruzione creatrice come modello dei sistemi adattivi", source: "c8:38", quote: "**Shiva Nataraja e il ciclo cosmico**"}
+relations:
+  - {to: "dissoluzione-consapevole", type: "evoca", source: "c8:38", quote: "eliminare le strutture obsolete"}

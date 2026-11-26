@@ -1,0 +1,10 @@
+id: "sistema-emergente"
+name: "Il sistema come proprietà emergente"
+summary: "Il sistema non è una forza esterna né un piano cosmico: nasce dal basso, dall'interazione degli individui."
+traits:
+  - {text: "Non è una causa, è un effetto", source: "c1:21", quote: "Non è una causa, è un effetto."}
+  - {text: "Non certifica mai esplicitamente la scelta giusta: fornisce il costo", source: "c2:48", quote: "Il sistema non certifica mai esplicitamente quale sia la scelta giusta."}
+notes:
+  - {text: "L'Appendice III lega l'assenza di progettista all'energia libera come condizione di esistenza (c10)."}
+relations:
+  - {to: "free-energy-principle", type: "dipende da", source: "c10:24", quote: "il modello si appoggia al Free Energy Principle, non all'ingegneria"}

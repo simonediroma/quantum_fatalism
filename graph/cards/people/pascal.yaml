@@ -1,0 +1,5 @@
+id: "pascal"
+name: "Blaise Pascal"
+summary: "Autore dell'epigrafe del Capitolo III."
+traits:
+  - {text: "Citato nel testo", source: "c4:9", quote: "— Blaise Pascal"}

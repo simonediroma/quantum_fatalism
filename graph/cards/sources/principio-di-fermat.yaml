@@ -1,0 +1,7 @@
+id: "principio-di-fermat"
+name: "Principio di Fermat"
+summary: "Il principio del tempo minimo: la luce sceglie il percorso che richiede meno tempo."
+traits:
+  - {text: "Un raggio luminoso sceglie il percorso che richiede meno tempo", source: "c1:11", quote: "È il celebre principio di Fermat, o del tempo minimo."}
+relations:
+  - {to: "fermat", type: "di", source: "c1:11", quote: "il matematico Pierre de Fermat formulò un principio"}

@@ -1,0 +1,10 @@
+id: "nessun-equilibrio-finale"
+name: "Il sistema non converge mai"
+summary: "Lo stato peculiare si espande e il campo si ridisegna: il sistema tende alla linea critica senza raggiungerla."
+traits:
+  - {text: "Il sistema non tende verso un equilibrio finale universale", source: "c2:46", quote: "Il sistema non tende verso un equilibrio finale universale"}
+  - {text: "Tende verso la linea critica senza mai raggiungerla: non una destinazione, ma una direzione", source: "c7:21", quote: "Non una destinazione, ma una direzione."}
+notes:
+  - {text: "La conclusione la presenta come la domanda che il saggio non chiude."}
+relations:
+  - {to: "linea-critica", type: "riguarda", source: "c7:21", quote: "Tende verso la linea critica senza mai raggiungerla definitivamente."}

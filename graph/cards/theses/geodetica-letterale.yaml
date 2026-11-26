@@ -1,0 +1,12 @@
+id: "geodetica-letterale"
+name: "La geodetica diventa letterale"
+summary: "Aggiornare il modello interno a minimo costo è seguire la geodetica della metrica dell'informazione."
+traits:
+  - {text: "Aggiornare il modello interno a minimo costo è seguire la geodetica della metrica dell'informazione", source: "c10:16", quote: "aggiornare il modello interno a minimo costo è seguire la geodetica della metrica dell'informazione"}
+  - {text: "La curvatura del Capitolo V è la curvatura di Fisher", source: "c10:16", quote: "La curvatura del Capitolo V è la curvatura di Fisher"}
+notes:
+  - {text: "Il campo come metrica addestrata collettivamente è dichiarato ipotesi del saggio, non derivata dalla letteratura (c10)."}
+relations:
+  - {to: "metrica-di-fisher", type: "dipende da", source: "c10:16", quote: "La curvatura del Capitolo V è la curvatura di Fisher"}
+  - {to: "geodetica", type: "definisce", source: "c10:16", quote: "smette di essere un'immagine presa in prestito da Riemann e diventa letterale"}
+  - {to: "gradiente-naturale", type: "dipende da", source: "c10:14", quote: "il gradiente naturale di Amari"}

@@ -1,0 +1,7 @@
+id: "autocodificatori-variazionali"
+name: "Autocodificatori variazionali"
+summary: "Modelli che apprendono uno spazio latente minimizzando l'energia libera variazionale (Kingma e Welling)."
+traits:
+  - {text: "Citati come base del modello computazionale", source: "c8:18", quote: "**Diederik Kingma e Max Welling, autocodificatori variazionali**"}
+relations:
+  - {to: "kingma-welling", type: "di", source: "c8:18", quote: "**Diederik Kingma e Max Welling, autocodificatori variazionali**"}

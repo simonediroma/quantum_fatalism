@@ -1,0 +1,11 @@
+id: "perturbazione"
+name: "Perturbazione"
+summary: "La scala dell'istante: due nodi deformano insieme la stessa regione del campo."
+traits:
+  - {text: "Definita come scala dell'istante dell'incontro", source: "c5:8", quote: "è la **perturbazione**"}
+  - {text: "Le spinte si compongono: favorevoli, contrarie o in tensione mantenuta", source: "c5:14", quote: "Quando due nodi occupano la stessa regione, le due spinte si compongono."}
+  - {text: "Due spinte uguali e contrarie non sono stabilità ma tensione mantenuta", source: "c5:16", quote: "Non è stabilità: è una tensione mantenuta."}
+notes:
+  - {text: "Il testo dichiara di correggere una sua descrizione precedente (cancellazione del rumore): 'il saggio lo aveva descritto male' (c5)."}
+relations:
+  - {to: "compatibilita", type: "definisce", source: "c5:18", quote: "La compatibilità tra geodetiche, dunque, ha una definizione operativa"}

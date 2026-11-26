@@ -1,0 +1,9 @@
+id: "destino-come-geometria"
+name: "Il destino è geometria, non copione"
+summary: "Il destino è la geometria del paesaggio interiore formato dalla qualità dell'attenzione."
+traits:
+  - {text: "Il destino non è un copione scritto da un'entità esterna ma la geometria del paesaggio interiore", source: "c6:15", quote: "Il destino non è un copione scritto da un'entità esterna"}
+  - {text: "La geodetica non è un destino scritto: è la linea di minore resistenza disponibile ora", source: "c2:16", quote: "Non è un destino scritto: è la linea di minore resistenza disponibile in questo momento"}
+relations:
+  - {to: "curvatura-dello-spazio-cognitivo", type: "dipende da", source: "c6:15", quote: "Sono forze che curvano lo spazio cognitivo"}
+  - {to: "geodetica", type: "usa", source: "c2:16", quote: "Questa traiettoria è ciò che il saggio chiama **geodetica**"}

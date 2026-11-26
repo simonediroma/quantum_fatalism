@@ -1,0 +1,6 @@
+id: "permeabilita"
+name: "Permeabilità"
+summary: "La disponibilità del sistema ad aggiornare il modello: aggiornamento quando il segnale lo richiede."
+traits:
+  - {text: "Secondo meccanismo di recupero dello stato peculiare", source: "c3:50", quote: "Il secondo meccanismo è la **permeabilità**"}
+  - {text: "Non apertura indiscriminata", source: "c3:50", quote: "aggiornamento quando il segnale lo richiede, non apertura indiscriminata"}

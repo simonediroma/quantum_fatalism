@@ -1,0 +1,5 @@
+id: "fermat"
+name: "Pierre de Fermat"
+summary: "Matematico del XVII secolo, autore del principio del tempo minimo."
+traits:
+  - {text: "Citato nel testo", source: "c1:11", quote: "il matematico Pierre de Fermat"}

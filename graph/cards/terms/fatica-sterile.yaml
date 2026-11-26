@@ -1,0 +1,6 @@
+id: "fatica-sterile"
+name: "Fatica sterile"
+summary: "Fatica che combatte ciò che il sistema non permette di cambiare: costo senza output."
+traits:
+  - {text: "Non produce modifica strutturale, solo costo acuto e cronico", source: "c2:36", quote: "La fatica sterile combatte ciò che il sistema non permette di cambiare"}
+  - {text: "Si muove dentro una metrica data", source: "c10:16", quote: "la fatica sterile si muove dentro una metrica data"}

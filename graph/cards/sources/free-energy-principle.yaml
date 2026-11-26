@@ -1,0 +1,12 @@
+id: "free-energy-principle"
+name: "Free Energy Principle"
+summary: "Il framework di Karl Friston: ogni sistema biologico minimizza la discrepanza tra modello interno e realtà."
+traits:
+  - {text: "Converge con il fatalismo quantico; Friston dà il rigore, il saggio il framework esistenziale", source: "c1:25", quote: "Dove Friston fornisce il rigore neuroscientifico"}
+  - {text: "Formulato a partire dalla metà degli anni 2000", source: "c9:8", quote: "a partire dalla metà degli anni 2000"}
+  - {text: "Sei punti di contatto principali", source: "c9:8", quote: "I punti di contatto principali sono sei."}
+  - {text: "ELBO e energia libera variazionale: la stessa equazione", source: "c10:10", quote: "non è analogica, è la stessa equazione"}
+notes:
+  - {text: "c1 dice che Friston 'dimostra su base matematica'; c10 colloca l'identità al solo livello informazionale."}
+relations:
+  - {to: "friston", type: "di", source: "c1:25", quote: "del neuroscienziato Karl Friston"}

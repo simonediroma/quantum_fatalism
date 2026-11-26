@@ -1,0 +1,5 @@
+id: "ted-chiang"
+name: "Ted Chiang"
+summary: "Scrittore: Storia della tua vita."
+traits:
+  - {text: "Citato nel testo", source: "c8:26", quote: "**Ted Chiang, *Storia della tua vita***"}

@@ -1,0 +1,5 @@
+id: "kingma-welling"
+name: "Diederik Kingma e Max Welling"
+summary: "Autori degli autocodificatori variazionali."
+traits:
+  - {text: "Citato nel testo", source: "c8:18", quote: "Diederik Kingma e Max Welling"}

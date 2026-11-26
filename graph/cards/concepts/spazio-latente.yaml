@@ -1,0 +1,10 @@
+id: "spazio-latente"
+name: "Spazio latente"
+summary: "Lo spazio a molte dimensioni in cui una rete rappresenta i dati; la geometria è appresa minimizzando un costo."
+traits:
+  - {text: "La geometria non è progettata ma appresa", source: "c10:10", quote: "la geometria non è progettata ma appresa"}
+  - {text: "Gli autocodificatori variazionali minimizzano l'energia libera variazionale", source: "c10:10", quote: "minimizza esattamente l'energia libera variazionale"}
+  - {text: "L'identità vale al livello informazionale, non esistenziale", source: "c10:10", quote: "l'identità vale al livello informazionale del costo"}
+relations:
+  - {to: "autocodificatori-variazionali", type: "cita", source: "c10:10", quote: "gli autocodificatori variazionali"}
+  - {to: "apprendimento-continuo", type: "esteso da", source: "c10:12", quote: "Il campo è uno spazio latente in addestramento continuo"}

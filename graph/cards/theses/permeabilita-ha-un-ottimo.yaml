@@ -1,0 +1,12 @@
+id: "permeabilita-ha-un-ottimo"
+name: "La permeabilità ha un ottimo, non un massimo"
+summary: "Rigidità totale e permeabilità totale sono patologie simmetriche; la qualità dell'attenzione pesa correttamente ogni segnale."
+traits:
+  - {text: "La permeabilità non è un bene monotono", source: "c3:24", quote: "la permeabilità non è un bene monotono"}
+  - {text: "Rigidità totale e permeabilità totale sono due patologie simmetriche", source: "c3:24", quote: "La rigidità totale e la permeabilità totale sono due patologie simmetriche"}
+  - {text: "Ha un ottimo, non un massimo; l'imprinting fornisce la stabilità", source: "c3:24", quote: "Ha un ottimo, non un massimo."}
+  - {text: "Ragione formale: il dilemma stabilità-plasticità dell'apprendimento continuo", source: "c10:12", quote: "La permeabilità ha un ottimo e non un massimo per la stessa ragione formale"}
+relations:
+  - {to: "permeabilita", type: "riguarda", source: "c3:24", quote: "la permeabilità non è un bene monotono"}
+  - {to: "imprinting", type: "dipende da", source: "c3:24", quote: "È l'imprinting, con i suoi prior rigidi, a fornire la stabilità"}
+  - {to: "apprendimento-continuo", type: "supportata da", source: "c10:12", quote: "La permeabilità ha un ottimo e non un massimo per la stessa ragione formale"}

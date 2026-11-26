@@ -1,0 +1,6 @@
+id: "apprendimento-continuo"
+name: "Apprendimento continuo"
+summary: "Addestramento che non si ferma: ogni esperienza di ogni nodo aggiorna la geometria condivisa."
+traits:
+  - {text: "Ogni esperienza è un passo di aggiornamento della geometria condivisa", source: "c10:12", quote: "ogni esperienza vissuta da ogni nodo è un passo di aggiornamento della geometria condivisa"}
+  - {text: "Problema noto: l'oblio catastrofico", source: "c10:12", quote: "l'oblio catastrofico"}

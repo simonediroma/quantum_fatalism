@@ -1,0 +1,7 @@
+id: "insieme-attrattore"
+name: "Insieme attrattore"
+summary: "L'insieme di stati verso cui un sistema biologico tende naturalmente (Friston)."
+traits:
+  - {text: "Corrispettivo diretto della geodetica", source: "c9:16", quote: "È il corrispettivo diretto della geodetica nel fatalismo quantico."}
+  - {text: "Patologico: minimizza il surprisal localmente con alto costo nel sistema più ampio", source: "c4:31", quote: "un insieme attrattore patologico"}
+  - {text: "È un minimo locale della funzione di costo", source: "c10:16", quote: "L'attrattore patologico della sezione 3.2 è un minimo locale della funzione di costo"}

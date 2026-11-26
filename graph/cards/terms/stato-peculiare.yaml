@@ -1,0 +1,13 @@
+id: "stato-peculiare"
+name: "Stato peculiare"
+summary: "La struttura specifica del modello interno, costruita dalla qualità dell'attenzione con cui si sono attraversate le esperienze."
+traits:
+  - {text: "Definito: non quantità di esperienze, ma profondità dell'attraversamento", source: "c3:14", quote: "chiama **stato peculiare**"}
+  - {text: "Non è cosa vivi: è come lo vivi", source: "c3:14", quote: "Non è cosa vivi: è come lo vivi."}
+  - {text: "Si degrada lungo un continuum ed è recuperabile", source: "c3:46", quote: "Lo stato peculiare non si deteriora in modo binario."}
+  - {text: "Integro, produce epifanie; compromesso, produce impulsi", source: "c4:29", quote: "Un'epifania emerge da uno stato peculiare integro"}
+  - {text: "Nel modello computazionale è il codificatore personale", source: "c10:18", quote: "cioè lo stato peculiare, proietta le proprie esperienze"}
+relations:
+  - {to: "imprinting", type: "si forma da", source: "c3:30", quote: "Lo stato peculiare non nasce neutro."}
+  - {to: "qualita-dell-attenzione", type: "dipende da", source: "c3:14", quote: "costruita nel tempo attraverso la qualità dell'attenzione"}
+  - {to: "modello-generativo", type: "corrisponde a", source: "c9:14", quote: "Il fatalismo quantico chiama questa struttura stato peculiare"}

@@ -1,0 +1,5 @@
+id: "riemann"
+name: "Bernhard Riemann"
+summary: "Matematico: geometria degli spazi curvi e funzione zeta."
+traits:
+  - {text: "Citato nel testo", source: "c6:13", quote: "Bernhard Riemann dimostrò nel XIX secolo"}

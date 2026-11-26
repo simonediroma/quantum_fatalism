@@ -1,0 +1,8 @@
+id: "ansia"
+name: "Ansia"
+summary: "Non patologia ma segnale di sistema, in due forme: acuta e cronica."
+traits:
+  - {text: "L'ansia è un segnale di sistema", source: "c3:56", quote: "l'ansia non è una patologia ma un segnale di sistema"}
+relations:
+  - {to: "surprisal", type: "manifesta", source: "c3:56", quote: "L'**ansia acuta** è la manifestazione del surprisal"}
+  - {to: "carico-cognitivo", type: "manifesta", source: "c3:56", quote: "L'**ansia cronica** è la manifestazione del carico cognitivo complessivo insostenibile"}

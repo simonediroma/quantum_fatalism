@@ -1,0 +1,8 @@
+id: "compatibilita"
+name: "Compatibilità"
+summary: "Due stati contestuali sono compatibili quando le deformazioni che producono abbassano reciprocamente il costo."
+traits:
+  - {text: "Definizione operativa nelle relazioni", source: "c5:18", quote: "due stati contestuali sono compatibili in un campo quando le deformazioni"}
+  - {text: "Compatibilità strutturale con un segnale: trovarsi dove la curvatura è cambiata", source: "c10:18", quote: "il che dà alla compatibilità strutturale una definizione operativa"}
+notes:
+  - {text: "Due definizioni distinte: nodo-nodo (c5) e nodo-segnale (c10)."}

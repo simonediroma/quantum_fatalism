@@ -1,0 +1,5 @@
+id: "spinoza"
+name: "Baruch Spinoza"
+summary: "Filosofo, precursore del sistema descritto nel saggio."
+traits:
+  - {text: "Citato nel testo", source: "c8:14", quote: "Spinoza dimostrò che la libertà"}

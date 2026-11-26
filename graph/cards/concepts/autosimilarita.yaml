@@ -1,0 +1,11 @@
+id: "autosimilarita"
+name: "Autosimilarità"
+summary: "La stessa struttura a tutte le scale: geodetiche, degrado e recupero, individuo e collettività."
+traits:
+  - {text: "Il modo di gestire piccole rigidità rispecchia quello delle grandi", source: "c3:52", quote: "segue la stessa logica autosimilare"}
+  - {text: "Le geodetiche formerebbero un frattale a qualunque dimensione del sistema", source: "c6:23", quote: "la loro geometria risultante sarebbe un frattale"}
+  - {text: "Riguarda anche degrado e recupero dello stato peculiare", source: "c6:25", quote: "L'autosimilarità non riguarda solo la geometria delle geodetiche."}
+open:
+  - {text: "L'Appendice III dichiara che il modello computazionale non ha struttura frattale in alcun senso dimostrato: la tesi frattale di c6 resta senza formalizzazione."}
+relations:
+  - {to: "mandelbrot", type: "dipende da", source: "c6:21", quote: "Benoit Mandelbrot scoprì che la complessità della natura"}

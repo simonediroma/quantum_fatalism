@@ -1,0 +1,1207 @@
+{
+ "nodes": [
+  {
+   "id": "apprendimento-continuo",
+   "type": "concepts",
+   "name": "Apprendimento continuo",
+   "summary": "Addestramento che non si ferma: ogni esperienza di ogni nodo aggiorna la geometria condivisa.",
+   "chapters": [
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "autosimilarita",
+   "type": "concepts",
+   "name": "Autosimilarità",
+   "summary": "La stessa struttura a tutte le scale: geodetiche, degrado e recupero, individuo e collettività.",
+   "chapters": [
+    3,
+    6
+   ],
+   "open": 1
+  },
+  {
+   "id": "campo",
+   "type": "concepts",
+   "name": "Campo",
+   "summary": "Lo spazio condiviso in cui avvengono incontri ed epifanie; nel modello computazionale, la metrica.",
+   "chapters": [
+    4,
+    5,
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "cognizione-quantistica",
+   "type": "concepts",
+   "name": "Cognizione quantistica",
+   "summary": "Uso del formalismo quantistico, non della fisica, per descrivere decisioni umane.",
+   "chapters": [
+    8,
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "curvatura-dello-spazio-cognitivo",
+   "type": "concepts",
+   "name": "Curvatura dello spazio cognitivo",
+   "summary": "Esperienze, cultura e traumi curvano lo spazio cognitivo e cambiano le geodetiche future.",
+   "chapters": [
+    6,
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "decoerenza",
+   "type": "concepts",
+   "name": "Decoerenza",
+   "summary": "Il decadimento delle coerenze quando il sistema si accoppia a qualcosa che registra quale alternativa è in corso.",
+   "chapters": [
+    10
+   ],
+   "open": 1
+  },
+  {
+   "id": "doppia-fenditura",
+   "type": "concepts",
+   "name": "Doppia fenditura come modello della scelta",
+   "summary": "Tre proprietà della scelta: combinazione non additiva, costo della domanda 'quale via', osservatore interno.",
+   "chapters": [
+    3,
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "energia",
+   "type": "concepts",
+   "name": "Energia (tre livelli)",
+   "summary": "Usata a tre livelli: fisico, informazionale, esistenziale; termine ombrello.",
+   "chapters": [
+    1,
+    2
+   ],
+   "open": 0
+  },
+  {
+   "id": "gradiente-naturale",
+   "type": "concepts",
+   "name": "Gradiente naturale",
+   "summary": "Aggiornare un modello lungo le geodetiche della metrica di Fisher: il modo più efficiente di apprendere.",
+   "chapters": [
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "inferenza-attiva",
+   "type": "concepts",
+   "name": "Inferenza attiva",
+   "summary": "Il sistema agisce sull'ambiente per renderlo più coerente con le proprie aspettative.",
+   "chapters": [
+    2,
+    9
+   ],
+   "open": 0
+  },
+  {
+   "id": "insieme-attrattore",
+   "type": "concepts",
+   "name": "Insieme attrattore",
+   "summary": "L'insieme di stati verso cui un sistema biologico tende naturalmente (Friston).",
+   "chapters": [
+    4,
+    9,
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "metrica-di-fisher",
+   "type": "concepts",
+   "name": "Metrica di Fisher",
+   "summary": "La metrica naturale dello spazio delle distribuzioni; la sua curvatura è calcolabile.",
+   "chapters": [
+    8,
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "modello-generativo",
+   "type": "concepts",
+   "name": "Modello generativo",
+   "summary": "Il modello interno che ogni individuo porta in ogni sistema (Friston).",
+   "chapters": [
+    9
+   ],
+   "open": 0
+  },
+  {
+   "id": "precisione-delle-credenze",
+   "type": "concepts",
+   "name": "Precisione delle credenze",
+   "summary": "La misura con cui il sistema è disposto ad aggiornare il modello invece di sopprimere i dati (Friston).",
+   "chapters": [
+    3,
+    9
+   ],
+   "open": 0
+  },
+  {
+   "id": "saturazione-del-campo",
+   "type": "concepts",
+   "name": "Saturazione del campo",
+   "summary": "La densità informativa cresce fino a una soglia critica e il campo si scarica sui nodi compatibili.",
+   "chapters": [
+    4,
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "simultaneita-geodetica",
+   "type": "concepts",
+   "name": "Simultaneità geodetica",
+   "summary": "La simultaneità è geodetica, non temporale: il campo si riorganizza per tutti, il ritardo è nella ricezione.",
+   "chapters": [
+    5,
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "sistema-emergente",
+   "type": "concepts",
+   "name": "Il sistema come proprietà emergente",
+   "summary": "Il sistema non è una forza esterna né un piano cosmico: nasce dal basso, dall'interazione degli individui.",
+   "chapters": [
+    1,
+    2,
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "spazio-latente",
+   "type": "concepts",
+   "name": "Spazio latente",
+   "summary": "Lo spazio a molte dimensioni in cui una rete rappresenta i dati; la geometria è appresa minimizzando un costo.",
+   "chapters": [
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "transizione-di-fase-collettiva",
+   "type": "concepts",
+   "name": "Transizione di fase collettiva",
+   "summary": "Aggiornamento discontinuo del modello generativo condiviso quando la discrepanza supera una soglia.",
+   "chapters": [
+    4,
+    9
+   ],
+   "open": 0
+  },
+  {
+   "id": "amari",
+   "type": "people",
+   "name": "Shun-ichi Amari",
+   "summary": "Fondatore della geometria dell'informazione e del gradiente naturale.",
+   "chapters": [
+    8
+   ],
+   "open": 0
+  },
+  {
+   "id": "aristotele",
+   "type": "people",
+   "name": "Aristotele",
+   "summary": "Autore dell'epigrafe del saggio.",
+   "chapters": [
+    1
+   ],
+   "open": 0
+  },
+  {
+   "id": "fermat",
+   "type": "people",
+   "name": "Pierre de Fermat",
+   "summary": "Matematico del XVII secolo, autore del principio del tempo minimo.",
+   "chapters": [
+    1
+   ],
+   "open": 0
+  },
+  {
+   "id": "friston",
+   "type": "people",
+   "name": "Karl Friston",
+   "summary": "Neuroscienziato, autore del Free Energy Principle.",
+   "chapters": [
+    1
+   ],
+   "open": 0
+  },
+  {
+   "id": "galileo",
+   "type": "people",
+   "name": "Galileo Galilei",
+   "summary": "Autore dell'epigrafe del Capitolo V.",
+   "chapters": [
+    6
+   ],
+   "open": 0
+  },
+  {
+   "id": "kingma-welling",
+   "type": "people",
+   "name": "Diederik Kingma e Max Welling",
+   "summary": "Autori degli autocodificatori variazionali.",
+   "chapters": [
+    8
+   ],
+   "open": 0
+  },
+  {
+   "id": "mandelbrot",
+   "type": "people",
+   "name": "Benoit Mandelbrot",
+   "summary": "Matematico dei frattali.",
+   "chapters": [
+    6
+   ],
+   "open": 0
+  },
+  {
+   "id": "marco-aurelio",
+   "type": "people",
+   "name": "Marco Aurelio",
+   "summary": "Autore dell'epigrafe della Conclusione.",
+   "chapters": [
+    7
+   ],
+   "open": 0
+  },
+  {
+   "id": "pascal",
+   "type": "people",
+   "name": "Blaise Pascal",
+   "summary": "Autore dell'epigrafe del Capitolo III.",
+   "chapters": [
+    4
+   ],
+   "open": 0
+  },
+  {
+   "id": "riemann",
+   "type": "people",
+   "name": "Bernhard Riemann",
+   "summary": "Matematico: geometria degli spazi curvi e funzione zeta.",
+   "chapters": [
+    6
+   ],
+   "open": 0
+  },
+  {
+   "id": "spinoza",
+   "type": "people",
+   "name": "Baruch Spinoza",
+   "summary": "Filosofo, precursore del sistema descritto nel saggio.",
+   "chapters": [
+    8
+   ],
+   "open": 0
+  },
+  {
+   "id": "ted-chiang",
+   "type": "people",
+   "name": "Ted Chiang",
+   "summary": "Scrittore: Storia della tua vita.",
+   "chapters": [
+    8
+   ],
+   "open": 0
+  },
+  {
+   "id": "autocodificatori-variazionali",
+   "type": "sources",
+   "name": "Autocodificatori variazionali",
+   "summary": "Modelli che apprendono uno spazio latente minimizzando l'energia libera variazionale (Kingma e Welling).",
+   "chapters": [
+    8
+   ],
+   "open": 0
+  },
+  {
+   "id": "busemeyer-bruza",
+   "type": "sources",
+   "name": "Quantum Models of Cognition and Decision",
+   "summary": "Il libro di Busemeyer e Bruza sulla cognizione quantistica.",
+   "chapters": [
+    8
+   ],
+   "open": 0
+  },
+  {
+   "id": "ciclo-delle-fondazioni",
+   "type": "sources",
+   "name": "Ciclo delle fondazioni",
+   "summary": "La psicostoria di Asimov: il singolo evento imprevedibile, l'insieme governato da una funzione.",
+   "chapters": [
+    8
+   ],
+   "open": 0
+  },
+  {
+   "id": "da-costa-et-al",
+   "type": "sources",
+   "name": "Da Costa, Parr, Sengupta e Friston",
+   "summary": "Hanno mostrato che le dinamiche dell'inferenza attiva approssimano il gradiente naturale.",
+   "chapters": [
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "etica-spinoza",
+   "type": "sources",
+   "name": "Etica (Spinoza)",
+   "summary": "La libertà come comprensione della necessità; Deus sive Natura come precursore del sistema.",
+   "chapters": [
+    8
+   ],
+   "open": 0
+  },
+  {
+   "id": "free-energy-principle",
+   "type": "sources",
+   "name": "Free Energy Principle",
+   "summary": "Il framework di Karl Friston: ogni sistema biologico minimizza la discrepanza tra modello interno e realtà.",
+   "chapters": [
+    1,
+    9,
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "funzione-zeta",
+   "type": "sources",
+   "name": "Funzione zeta e ipotesi di Riemann",
+   "summary": "I numeri primi, apparentemente caotici, governati dagli zeri di una funzione; l'ipotesi li pone su una linea critica.",
+   "chapters": [
+    6
+   ],
+   "open": 0
+  },
+  {
+   "id": "geometria-riemanniana",
+   "type": "sources",
+   "name": "Geometria riemanniana",
+   "summary": "Lo spazio come varietà capace di curvarsi, in cui gli oggetti seguono geodetiche.",
+   "chapters": [
+    6,
+    8
+   ],
+   "open": 0
+  },
+  {
+   "id": "principio-di-fermat",
+   "type": "sources",
+   "name": "Principio di Fermat",
+   "summary": "Il principio del tempo minimo: la luce sceglie il percorso che richiede meno tempo.",
+   "chapters": [
+    1
+   ],
+   "open": 0
+  },
+  {
+   "id": "radici-mistiche",
+   "type": "sources",
+   "name": "Radici mistiche",
+   "summary": "Wu wei taoista, Sama sufi e Shiva Nataraja come antenati concettuali del principio di minima azione.",
+   "chapters": [
+    8
+   ],
+   "open": 0
+  },
+  {
+   "id": "storia-della-tua-vita",
+   "type": "sources",
+   "name": "Storia della tua vita / Arrival",
+   "summary": "Il racconto di Ted Chiang e il film tratto: vedere l'intera geodetica produce paralisi o ossessione.",
+   "chapters": [
+    4,
+    8
+   ],
+   "open": 1
+  },
+  {
+   "id": "tversky-shafir",
+   "type": "sources",
+   "name": "Effetto disgiunzione (Tversky e Shafir)",
+   "summary": "L'evidenza empirica citata per la cognizione quantistica, oggi contestata.",
+   "chapters": [
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "valis",
+   "type": "sources",
+   "name": "VALIS",
+   "summary": "Il romanzo di Philip K. Dick: l'universo come informazione e l'illuminazione come trasferimento di dati.",
+   "chapters": [
+    8
+   ],
+   "open": 0
+  },
+  {
+   "id": "ansia",
+   "type": "terms",
+   "name": "Ansia",
+   "summary": "Non patologia ma segnale di sistema, in due forme: acuta e cronica.",
+   "chapters": [
+    3
+   ],
+   "open": 0
+  },
+  {
+   "id": "carico-cognitivo",
+   "type": "terms",
+   "name": "Carico cognitivo complessivo",
+   "summary": "Il costo cronico: la somma di tutti i processi irrisolti attivi nel sistema.",
+   "chapters": [
+    2,
+    3,
+    5,
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "compatibilita",
+   "type": "terms",
+   "name": "Compatibilità",
+   "summary": "Due stati contestuali sono compatibili quando le deformazioni che producono abbassano reciprocamente il costo.",
+   "chapters": [
+    5,
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "deformazione-permanente",
+   "type": "terms",
+   "name": "Deformazione permanente",
+   "summary": "La scala del tempo: la traccia che l'incontro lascia nella geometria del campo.",
+   "chapters": [
+    5
+   ],
+   "open": 0
+  },
+  {
+   "id": "dissoluzione-consapevole",
+   "type": "terms",
+   "name": "Dissoluzione consapevole",
+   "summary": "La fine di un sistema condiviso dopo un'epifania condivisa: una transizione di fase a basso costo.",
+   "chapters": [
+    5
+   ],
+   "open": 0
+  },
+  {
+   "id": "epifania",
+   "type": "terms",
+   "name": "Epifania",
+   "summary": "Un sottoinsieme specifico di segnali che emergono già formati, a basso costo, distinguibili dal rumore.",
+   "chapters": [
+    4,
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "fatica-produttiva",
+   "type": "terms",
+   "name": "Fatica produttiva",
+   "summary": "Fatica che modifica la curvatura dello spazio cognitivo in cui la geodetica viene calcolata.",
+   "chapters": [
+    2,
+    9,
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "fatica-sterile",
+   "type": "terms",
+   "name": "Fatica sterile",
+   "summary": "Fatica che combatte ciò che il sistema non permette di cambiare: costo senza output.",
+   "chapters": [
+    2,
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "geodetica",
+   "type": "terms",
+   "name": "Geodetica",
+   "summary": "La linea di minore resistenza disponibile ora, in questo sistema, con questa configurazione interna.",
+   "chapters": [
+    2,
+    4,
+    6,
+    9,
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "imprinting",
+   "type": "terms",
+   "name": "Imprinting",
+   "summary": "I prior iniziali dello stato peculiare, formati per mimesi nelle fasi precoci.",
+   "chapters": [
+    3,
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "impulso",
+   "type": "terms",
+   "name": "Impulso",
+   "summary": "Segnale che emerge da uno stato peculiare compromesso, con dominanza strutturale.",
+   "chapters": [
+    4
+   ],
+   "open": 0
+  },
+  {
+   "id": "linea-critica",
+   "type": "terms",
+   "name": "Linea critica",
+   "summary": "Dove il costo di ogni azione è minimo e la coerenza del sistema massima; si tende ad essa senza raggiungerla.",
+   "chapters": [
+    6
+   ],
+   "open": 0
+  },
+  {
+   "id": "permeabilita",
+   "type": "terms",
+   "name": "Permeabilità",
+   "summary": "La disponibilità del sistema ad aggiornare il modello: aggiornamento quando il segnale lo richiede.",
+   "chapters": [
+    3
+   ],
+   "open": 0
+  },
+  {
+   "id": "perturbazione",
+   "type": "terms",
+   "name": "Perturbazione",
+   "summary": "La scala dell'istante: due nodi deformano insieme la stessa regione del campo.",
+   "chapters": [
+    5
+   ],
+   "open": 0
+  },
+  {
+   "id": "qualita-dell-attenzione",
+   "type": "terms",
+   "name": "Qualità dell'attenzione",
+   "summary": "Il concetto più centrale: la capacità di pesare correttamente ogni segnale.",
+   "chapters": [
+    3,
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "stato-contestuale",
+   "type": "terms",
+   "name": "Stato contestuale",
+   "summary": "La configurazione dell'individuo in un sistema specifico, prodotto dello stato peculiare e del campo.",
+   "chapters": [
+    3,
+    5
+   ],
+   "open": 0
+  },
+  {
+   "id": "stato-peculiare",
+   "type": "terms",
+   "name": "Stato peculiare",
+   "summary": "La struttura specifica del modello interno, costruita dalla qualità dell'attenzione con cui si sono attraversate le esperienze.",
+   "chapters": [
+    3,
+    4,
+    9,
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "stoicismo-computazionale",
+   "type": "terms",
+   "name": "Stoicismo computazionale",
+   "summary": "La precisione di chi conosce il sistema e sa dove e quando intervenire.",
+   "chapters": [
+    7
+   ],
+   "open": 0
+  },
+  {
+   "id": "surprisal",
+   "type": "terms",
+   "name": "Surprisal",
+   "summary": "Il costo acuto: discrepanza tra modello generativo interno e dati sensoriali in un momento specifico.",
+   "chapters": [
+    2,
+    3,
+    9
+   ],
+   "open": 0
+  },
+  {
+   "id": "destino-come-geometria",
+   "type": "theses",
+   "name": "Il destino è geometria, non copione",
+   "summary": "Il destino è la geometria del paesaggio interiore formato dalla qualità dell'attenzione.",
+   "chapters": [
+    2,
+    6
+   ],
+   "open": 0
+  },
+  {
+   "id": "epifanie-si-ricevono",
+   "type": "theses",
+   "name": "Le epifanie si ricevono, non si generano",
+   "summary": "Le epifanie emergono già formate perché il loro costo è già stato distribuito nel campo.",
+   "chapters": [
+    4
+   ],
+   "open": 0
+  },
+  {
+   "id": "geodetica-letterale",
+   "type": "theses",
+   "name": "La geodetica diventa letterale",
+   "summary": "Aggiornare il modello interno a minimo costo è seguire la geodetica della metrica dell'informazione.",
+   "chapters": [
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "nessun-equilibrio-finale",
+   "type": "theses",
+   "name": "Il sistema non converge mai",
+   "summary": "Lo stato peculiare si espande e il campo si ridisegna: il sistema tende alla linea critica senza raggiungerla.",
+   "chapters": [
+    2,
+    7
+   ],
+   "open": 0
+  },
+  {
+   "id": "permeabilita-ha-un-ottimo",
+   "type": "theses",
+   "name": "La permeabilità ha un ottimo, non un massimo",
+   "summary": "Rigidità totale e permeabilità totale sono patologie simmetriche; la qualità dell'attenzione pesa correttamente ogni segnale.",
+   "chapters": [
+    3,
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "principio-di-minimo-carico",
+   "type": "theses",
+   "name": "Principio di minimo carico cognitivo",
+   "summary": "Gli eventi accadono lungo le linee che richiedono il minor sforzo di elaborazione per il sistema.",
+   "chapters": [
+    1,
+    2,
+    6,
+    7
+   ],
+   "open": 0
+  },
+  {
+   "id": "quantico-come-forma",
+   "type": "theses",
+   "name": "\"Quantico\" indica una forma, non un substrato",
+   "summary": "La doppia fenditura è modello della struttura della scelta; il saggio non sostiene che la coscienza sia fisicamente quantistica.",
+   "chapters": [
+    3,
+    8,
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "razionalizzazione-demolisce",
+   "type": "theses",
+   "name": "La razionalizzazione demolisce l'epifania",
+   "summary": "La razionalità costruisce sopra l'epifania e la trasforma in un processo costoso; la complessità del ragionamento misura l'energia sprecata.",
+   "chapters": [
+    4,
+    10
+   ],
+   "open": 0
+  },
+  {
+   "id": "scelta-del-momento",
+   "type": "theses",
+   "name": "Teoria della scelta del momento",
+   "summary": "Non rassegnazione: imparare quando agire e riconoscere quando il sistema è permeabile al cambiamento.",
+   "chapters": [
+    1,
+    2,
+    7
+   ],
+   "open": 0
+  },
+  {
+   "id": "teoria-descrittiva",
+   "type": "theses",
+   "name": "Teoria descrittiva, non prescrittiva",
+   "summary": "Il fatalismo quantico descrive la struttura del costo; non dà indicazioni etiche né giudica le scelte.",
+   "chapters": [
+    1,
+    7
+   ],
+   "open": 0
+  },
+  {
+   "id": "un-campo-due-scale",
+   "type": "theses",
+   "name": "Le relazioni sono un solo campo a due scale",
+   "summary": "Quando due geodetiche si incontrano accade una cosa sola: perturbazione nell'istante, deformazione permanente nel tempo.",
+   "chapters": [
+    5
+   ],
+   "open": 0
+  }
+ ],
+ "edges": [
+  {
+   "from": "autosimilarita",
+   "to": "mandelbrot",
+   "type": "dipende da",
+   "source": "c6:21"
+  },
+  {
+   "from": "campo",
+   "to": "metrica-di-fisher",
+   "type": "corrisponde a",
+   "source": "c10:18"
+  },
+  {
+   "from": "cognizione-quantistica",
+   "to": "busemeyer-bruza",
+   "type": "cita",
+   "source": "c8:20"
+  },
+  {
+   "from": "cognizione-quantistica",
+   "to": "tversky-shafir",
+   "type": "cita",
+   "source": "c10:22"
+  },
+  {
+   "from": "decoerenza",
+   "to": "cognizione-quantistica",
+   "type": "usata da",
+   "source": "c10:20"
+  },
+  {
+   "from": "doppia-fenditura",
+   "to": "decoerenza",
+   "type": "esteso da",
+   "source": "c10:20"
+  },
+  {
+   "from": "gradiente-naturale",
+   "to": "da-costa-et-al",
+   "type": "supportato da",
+   "source": "c10:14"
+  },
+  {
+   "from": "inferenza-attiva",
+   "to": "free-energy-principle",
+   "type": "proviene da",
+   "source": "c2:40"
+  },
+  {
+   "from": "metrica-di-fisher",
+   "to": "amari",
+   "type": "cita",
+   "source": "c8:22"
+  },
+  {
+   "from": "saturazione-del-campo",
+   "to": "transizione-di-fase-collettiva",
+   "type": "corrisponde a",
+   "source": "c4:51"
+  },
+  {
+   "from": "sistema-emergente",
+   "to": "free-energy-principle",
+   "type": "dipende da",
+   "source": "c10:24"
+  },
+  {
+   "from": "spazio-latente",
+   "to": "autocodificatori-variazionali",
+   "type": "cita",
+   "source": "c10:10"
+  },
+  {
+   "from": "spazio-latente",
+   "to": "apprendimento-continuo",
+   "type": "esteso da",
+   "source": "c10:12"
+  },
+  {
+   "from": "autocodificatori-variazionali",
+   "to": "kingma-welling",
+   "type": "di",
+   "source": "c8:18"
+  },
+  {
+   "from": "etica-spinoza",
+   "to": "spinoza",
+   "type": "di",
+   "source": "c8:14"
+  },
+  {
+   "from": "free-energy-principle",
+   "to": "friston",
+   "type": "di",
+   "source": "c1:25"
+  },
+  {
+   "from": "funzione-zeta",
+   "to": "riemann",
+   "type": "di",
+   "source": "c6:31"
+  },
+  {
+   "from": "geometria-riemanniana",
+   "to": "riemann",
+   "type": "di",
+   "source": "c6:13"
+  },
+  {
+   "from": "principio-di-fermat",
+   "to": "fermat",
+   "type": "di",
+   "source": "c1:11"
+  },
+  {
+   "from": "radici-mistiche",
+   "to": "dissoluzione-consapevole",
+   "type": "evoca",
+   "source": "c8:38"
+  },
+  {
+   "from": "storia-della-tua-vita",
+   "to": "ted-chiang",
+   "type": "di",
+   "source": "c8:26"
+  },
+  {
+   "from": "ansia",
+   "to": "surprisal",
+   "type": "manifesta",
+   "source": "c3:56"
+  },
+  {
+   "from": "ansia",
+   "to": "carico-cognitivo",
+   "type": "manifesta",
+   "source": "c3:56"
+  },
+  {
+   "from": "carico-cognitivo",
+   "to": "surprisal",
+   "type": "include",
+   "source": "c2:26"
+  },
+  {
+   "from": "deformazione-permanente",
+   "to": "apprendimento-continuo",
+   "type": "corrisponde a",
+   "source": "c5:22"
+  },
+  {
+   "from": "dissoluzione-consapevole",
+   "to": "simultaneita-geodetica",
+   "type": "dipende da",
+   "source": "c5:36"
+  },
+  {
+   "from": "epifania",
+   "to": "impulso",
+   "type": "si distingue da",
+   "source": "c4:29"
+  },
+  {
+   "from": "epifania",
+   "to": "saturazione-del-campo",
+   "type": "nasce da",
+   "source": "c4:43"
+  },
+  {
+   "from": "fatica-produttiva",
+   "to": "fatica-sterile",
+   "type": "si distingue da",
+   "source": "c2:32"
+  },
+  {
+   "from": "fatica-produttiva",
+   "to": "inferenza-attiva",
+   "type": "corrisponde a",
+   "source": "c9:12"
+  },
+  {
+   "from": "geodetica",
+   "to": "riemann",
+   "type": "dipende da",
+   "source": "c6:13"
+  },
+  {
+   "from": "geodetica",
+   "to": "insieme-attrattore",
+   "type": "corrisponde a",
+   "source": "c9:16"
+  },
+  {
+   "from": "imprinting",
+   "to": "autosimilarita",
+   "type": "segue",
+   "source": "c3:34"
+  },
+  {
+   "from": "impulso",
+   "to": "insieme-attrattore",
+   "type": "corrisponde a",
+   "source": "c4:31"
+  },
+  {
+   "from": "linea-critica",
+   "to": "funzione-zeta",
+   "type": "dipende da",
+   "source": "c6:31"
+  },
+  {
+   "from": "perturbazione",
+   "to": "compatibilita",
+   "type": "definisce",
+   "source": "c5:18"
+  },
+  {
+   "from": "qualita-dell-attenzione",
+   "to": "precisione-delle-credenze",
+   "type": "corrisponde a",
+   "source": "c3:18"
+  },
+  {
+   "from": "stato-contestuale",
+   "to": "stato-peculiare",
+   "type": "dipende da",
+   "source": "c3:38"
+  },
+  {
+   "from": "stato-peculiare",
+   "to": "imprinting",
+   "type": "si forma da",
+   "source": "c3:30"
+  },
+  {
+   "from": "stato-peculiare",
+   "to": "qualita-dell-attenzione",
+   "type": "dipende da",
+   "source": "c3:14"
+  },
+  {
+   "from": "stato-peculiare",
+   "to": "modello-generativo",
+   "type": "corrisponde a",
+   "source": "c9:14"
+  },
+  {
+   "from": "stoicismo-computazionale",
+   "to": "marco-aurelio",
+   "type": "evoca",
+   "source": "c7:8"
+  },
+  {
+   "from": "surprisal",
+   "to": "carico-cognitivo",
+   "type": "si distingue da",
+   "source": "c2:22"
+  },
+  {
+   "from": "surprisal",
+   "to": "free-energy-principle",
+   "type": "proviene da",
+   "source": "c9:10"
+  },
+  {
+   "from": "destino-come-geometria",
+   "to": "curvatura-dello-spazio-cognitivo",
+   "type": "dipende da",
+   "source": "c6:15"
+  },
+  {
+   "from": "destino-come-geometria",
+   "to": "geodetica",
+   "type": "usa",
+   "source": "c2:16"
+  },
+  {
+   "from": "epifanie-si-ricevono",
+   "to": "epifania",
+   "type": "riguarda",
+   "source": "c4:15"
+  },
+  {
+   "from": "epifanie-si-ricevono",
+   "to": "campo",
+   "type": "dipende da",
+   "source": "c4:15"
+  },
+  {
+   "from": "geodetica-letterale",
+   "to": "metrica-di-fisher",
+   "type": "dipende da",
+   "source": "c10:16"
+  },
+  {
+   "from": "geodetica-letterale",
+   "to": "geodetica",
+   "type": "definisce",
+   "source": "c10:16"
+  },
+  {
+   "from": "geodetica-letterale",
+   "to": "gradiente-naturale",
+   "type": "dipende da",
+   "source": "c10:14"
+  },
+  {
+   "from": "nessun-equilibrio-finale",
+   "to": "linea-critica",
+   "type": "riguarda",
+   "source": "c7:21"
+  },
+  {
+   "from": "permeabilita-ha-un-ottimo",
+   "to": "permeabilita",
+   "type": "riguarda",
+   "source": "c3:24"
+  },
+  {
+   "from": "permeabilita-ha-un-ottimo",
+   "to": "imprinting",
+   "type": "dipende da",
+   "source": "c3:24"
+  },
+  {
+   "from": "permeabilita-ha-un-ottimo",
+   "to": "apprendimento-continuo",
+   "type": "supportata da",
+   "source": "c10:12"
+  },
+  {
+   "from": "principio-di-minimo-carico",
+   "to": "principio-di-fermat",
+   "type": "dipende da",
+   "source": "c1:15"
+  },
+  {
+   "from": "principio-di-minimo-carico",
+   "to": "free-energy-principle",
+   "type": "supportata da",
+   "source": "c1:25"
+  },
+  {
+   "from": "principio-di-minimo-carico",
+   "to": "autosimilarita",
+   "type": "si esprime come",
+   "source": "c6:23"
+  },
+  {
+   "from": "quantico-come-forma",
+   "to": "doppia-fenditura",
+   "type": "usa",
+   "source": "c3:12"
+  },
+  {
+   "from": "quantico-come-forma",
+   "to": "cognizione-quantistica",
+   "type": "supportata da",
+   "source": "c8:20"
+  },
+  {
+   "from": "razionalizzazione-demolisce",
+   "to": "epifania",
+   "type": "contraddice",
+   "source": "c4:57"
+  },
+  {
+   "from": "razionalizzazione-demolisce",
+   "to": "decoerenza",
+   "type": "letta come",
+   "source": "c10:20"
+  },
+  {
+   "from": "scelta-del-momento",
+   "to": "permeabilita",
+   "type": "dipende da",
+   "source": "c1:17"
+  },
+  {
+   "from": "scelta-del-momento",
+   "to": "fatica-produttiva",
+   "type": "si attua con",
+   "source": "c2:36"
+  },
+  {
+   "from": "teoria-descrittiva",
+   "to": "stoicismo-computazionale",
+   "type": "fonda",
+   "source": "c7:13"
+  },
+  {
+   "from": "un-campo-due-scale",
+   "to": "perturbazione",
+   "type": "comprende",
+   "source": "c5:8"
+  },
+  {
+   "from": "un-campo-due-scale",
+   "to": "deformazione-permanente",
+   "type": "comprende",
+   "source": "c5:8"
+  },
+  {
+   "from": "un-campo-due-scale",
+   "to": "campo",
+   "type": "usa",
+   "source": "c5:8"
+  }
+ ]
+}

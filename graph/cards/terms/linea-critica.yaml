@@ -1,0 +1,7 @@
+id: "linea-critica"
+name: "Linea critica"
+summary: "Dove il costo di ogni azione è minimo e la coerenza del sistema massima; si tende ad essa senza raggiungerla."
+traits:
+  - {text: "Operare vicino alla linea critica: costo minimo, coerenza massima", source: "c6:33", quote: "operare il più vicino possibile a quella linea critica"}
+relations:
+  - {to: "funzione-zeta", type: "dipende da", source: "c6:31", quote: "L'ipotesi di Riemann suggerisce che tutti questi punti di equilibrio risiedano su un'unica **linea critica**"}

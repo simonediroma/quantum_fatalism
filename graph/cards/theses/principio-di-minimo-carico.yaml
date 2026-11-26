@@ -1,0 +1,13 @@
+id: "principio-di-minimo-carico"
+name: "Principio di minimo carico cognitivo"
+aliases: ["minimo carico", "principio di minima energia"]
+summary: "Gli eventi accadono lungo le linee che richiedono il minor sforzo di elaborazione per il sistema."
+traits:
+  - {text: "Il destino umano seguirebbe la logica del raggio di Fermat: gli eventi lungo le linee di minor sforzo di elaborazione", source: "c1:15", quote: "lungo le linee che richiedono il minor sforzo di elaborazione"}
+  - {text: "La minimizzazione è sempre locale e contestuale, non globale e assoluta", source: "c2:46", quote: "è sempre locale e contestuale, non globale e assoluta"}
+  - {text: "È la regola generativa autosimilare del destino, identica a due o a milioni di attori", source: "c6:23", quote: "La regola generativa, il principio di minimo carico cognitivo, è autosimilare"}
+  - {text: "Il sistema-vita tende verso configurazioni di minore costo locale", source: "c7:19", quote: "tende verso configurazioni di minore costo locale"}
+relations:
+  - {to: "principio-di-fermat", type: "dipende da", source: "c1:15", quote: "E se il destino umano seguisse la stessa logica del raggio di luce di Fermat?"}
+  - {to: "free-energy-principle", type: "supportata da", source: "c1:25", quote: "Il fatalismo quantico converge con il Free Energy Principle"}
+  - {to: "autosimilarita", type: "si esprime come", source: "c6:23", quote: "La regola generativa, il principio di minimo carico cognitivo, è autosimilare"}

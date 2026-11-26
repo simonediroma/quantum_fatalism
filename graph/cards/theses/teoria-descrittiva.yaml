@@ -1,0 +1,10 @@
+id: "teoria-descrittiva"
+name: "Teoria descrittiva, non prescrittiva"
+summary: "Il fatalismo quantico descrive la struttura del costo; non dà indicazioni etiche né giudica le scelte."
+traits:
+  - {text: "Non fornisce indicazioni etiche, non distingue esiti buoni e cattivi", source: "c1:19", quote: "Il fatalismo quantico è una teoria descrittiva, non prescrittiva."}
+  - {text: "Ribadito nella conclusione: descrive la struttura del costo nel sistema in cui le scelte avvengono", source: "c7:13", quote: "È una teoria descrittiva: non prescrive come vivere"}
+notes:
+  - {text: "Le implicazioni etiche sono dichiarate fuori dal dominio della teoria (c1)."}
+relations:
+  - {to: "stoicismo-computazionale", type: "fonda", source: "c7:13", quote: "È una teoria descrittiva: non prescrive come vivere"}

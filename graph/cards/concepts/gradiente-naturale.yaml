@@ -1,0 +1,8 @@
+id: "gradiente-naturale"
+name: "Gradiente naturale"
+summary: "Aggiornare un modello lungo le geodetiche della metrica di Fisher: il modo più efficiente di apprendere."
+traits:
+  - {text: "Seguire le geodetiche della metrica è il modo più efficiente di apprendere", source: "c10:14", quote: "il gradiente naturale di Amari, è il modo più efficiente di apprendere"}
+  - {text: "Le dinamiche dell'inferenza attiva lo approssimano", source: "c10:14", quote: "approssimano proprio una discesa lungo il gradiente naturale"}
+relations:
+  - {to: "da-costa-et-al", type: "supportato da", source: "c10:14", quote: "come hanno mostrato Da Costa, Parr, Sengupta e Friston"}

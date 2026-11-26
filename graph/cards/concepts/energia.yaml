@@ -1,0 +1,9 @@
+id: "energia"
+name: "Energia (tre livelli)"
+summary: "Usata a tre livelli: fisico, informazionale, esistenziale; termine ombrello."
+traits:
+  - {text: "Tre livelli distinti: fisico, informazionale, esistenziale", source: "c1:23", quote: "Il termine energia viene impiegato a tre livelli distinti"}
+  - {text: "Il livello esistenziale non è ancora unificabile con gli altri", source: "c1:23", quote: "non ancora definibile in modo unificato con i primi due"}
+  - {text: "Ridefinita come costo computazionale", source: "c2:10", quote: "ma costo computazionale"}
+not_said:
+  - {text: "Il testo non fornisce una definizione unificata dei tre livelli: lo dichiara esplicitamente."}

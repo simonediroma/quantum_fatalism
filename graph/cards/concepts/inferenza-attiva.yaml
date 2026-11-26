@@ -1,0 +1,8 @@
+id: "inferenza-attiva"
+name: "Inferenza attiva"
+summary: "Il sistema agisce sull'ambiente per renderlo più coerente con le proprie aspettative."
+traits:
+  - {text: "Efficace quando interviene nel momento di permeabilità", source: "c2:40", quote: "Friston descrive questo attraverso il concetto di **inferenza attiva**"}
+  - {text: "Seconda modalità di riduzione dell'energia libera secondo Friston", source: "c9:12", quote: "l'inferenza attiva, ovvero l'azione sull'ambiente"}
+relations:
+  - {to: "free-energy-principle", type: "proviene da", source: "c2:40", quote: "Friston descrive questo attraverso il concetto di **inferenza attiva**"}

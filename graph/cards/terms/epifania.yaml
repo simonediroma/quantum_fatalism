@@ -1,0 +1,13 @@
+id: "epifania"
+name: "Epifania"
+summary: "Un sottoinsieme specifico di segnali che emergono già formati, a basso costo, distinguibili dal rumore."
+traits:
+  - {text: "Non si cercano: compaiono a prescindere", source: "c4:13", quote: "Le epifanie non si cercano."}
+  - {text: "Tre livelli: chiare, effimere, segnali in domini poco sviluppati", source: "c4:17", quote: "Le epifanie si manifestano su almeno tre livelli di intensità distinti:"}
+  - {text: "Validazione sempre retrospettiva e personale", source: "c4:25", quote: "La validazione è sempre retrospettiva, personale"}
+  - {text: "È una regione che si è aperta nel campo", source: "c10:18", quote: "la regione si è aperta nella metrica"}
+not_said:
+  - {text: "Il testo non dà un criterio esterno per riconoscere un'epifania nel momento in cui accade: la validazione è dichiarata solo retrospettiva."}
+relations:
+  - {to: "impulso", type: "si distingue da", source: "c4:29", quote: "Esiste una distinzione fondamentale tra un'epifania e un impulso"}
+  - {to: "saturazione-del-campo", type: "nasce da", source: "c4:43", quote: "Emergono dalla saturazione di un campo continuo."}

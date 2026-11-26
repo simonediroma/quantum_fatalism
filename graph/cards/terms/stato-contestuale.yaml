@@ -1,0 +1,9 @@
+id: "stato-contestuale"
+name: "Stato contestuale"
+summary: "La configurazione dell'individuo in un sistema specifico, prodotto dello stato peculiare e del campo."
+traits:
+  - {text: "Definito: emerge dall'interazione tra stato peculiare e campo", source: "c3:38", quote: "chiama **stato contestuale**"}
+  - {text: "Non è fisso: varia da sistema a sistema", source: "c3:40", quote: "Lo stato contestuale non è fisso."}
+  - {text: "Spinge la geometria locale nella direzione che abbassa il proprio costo", source: "c5:14", quote: "il suo stato contestuale spinge la geometria locale in una direzione"}
+relations:
+  - {to: "stato-peculiare", type: "dipende da", source: "c3:38", quote: "Dall'interazione tra lo stato peculiare dell'individuo e il campo specifico"}
