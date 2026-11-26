@@ -202,23 +202,23 @@ Nel tempo, questo archivio consente di riconoscere gli schemi: quali tipi di seg
 ---
 
 ## Capitolo IV
-### Interferenze: la fisica delle relazioni
+### Il campo condiviso: la fisica delle relazioni
 
-Quando due geodetiche si incontrano, accadono due cose distinte che richiedono due modelli diversi per essere descritte con precisione. La prima è l'interazione nel momento dell'incontro: due traiettorie energetiche che si sovrappongono e producono un risultato immediato. Per descrivere questa dinamica, il fatalismo quantico usa il **modello delle onde**. La seconda è la traccia che quell'incontro lascia nel sistema: una modifica permanente della struttura del campo che ridisegna le geodetiche future di tutti i nodi coinvolti. Per descrivere questa dinamica, il fatalismo quantico usa il **modello del campo**. I due modelli sono complementari, non alternativi: le onde descrivono il durante, il campo descrive il dopo.
+Quando due geodetiche si incontrano, accade una cosa sola, osservabile a due scale. Alla scala dell'istante, due nodi deformano contemporaneamente la stessa regione del campo, e la geodetica di ciascuno viene ricalcolata sulla geometria che l'altro sta modificando: è la **perturbazione**. Alla scala del tempo, quella deformazione lascia una traccia che non si riassorbe, e ridisegna le geodetiche future di tutti i nodi che attraversano quella regione: è la **deformazione permanente**. Non sono due modelli. Sono lo stesso campo, descritto nel momento in cui viene toccato e dopo che è stato toccato. Il saggio aveva in precedenza usato per le due scale i linguaggi delle onde e del campo; l'Appendice III mostra che il secondo contiene il primo, e questo capitolo li unifica.
 
-Prima di descrivere i due modelli, va stabilito un principio fondamentale: la significatività di un incontro non è una proprietà oggettiva dell'incontro stesso. È una proprietà emergente dall'interazione tra l'evento e lo stato peculiare dell'individuo nel momento in cui avviene. Un incontro fugace di una sola parola, la visione di un oggetto, una persona che genera ricordi, possono modificare permanentemente la struttura del campo se lo stato peculiare era nella configurazione giusta per riceverli. La stessa interazione è significativa per un individuo e irrilevante per un altro.
+Prima di descrivere le due scale, va stabilito un principio fondamentale: la significatività di un incontro non è una proprietà oggettiva dell'incontro stesso. È una proprietà emergente dall'interazione tra l'evento e lo stato peculiare dell'individuo nel momento in cui avviene. Un incontro fugace di una sola parola, la visione di un oggetto, una persona che genera ricordi, possono modificare permanentemente la struttura del campo se lo stato peculiare era nella configurazione giusta per riceverli. La stessa interazione è significativa per un individuo e irrilevante per un altro.
 
-#### 4.1 Il modello delle onde: l'interazione puntuale
+#### 4.1 La perturbazione: l'incontro
 
-Le geodetiche individuali si influenzano reciprocamente come fronti d'onda. Quando due individui si incontrano in un sistema condiviso, le onde che le loro traiettorie producono in quel campo interagiscono, e il risultato dipende dalla relazione tra le loro caratteristiche in quel contesto specifico.
+Nel momento dell'incontro, ciascun nodo sta già deformando il campo con la propria presenza: il suo stato contestuale spinge la geometria locale in una direzione, quella che abbassa il suo costo. Quando due nodi occupano la stessa regione, le due spinte si compongono. Se spingono la geometria in direzioni che abbassano il costo di entrambi, ciascuno trova la propria geodetica più facile di quanto sarebbe da solo: è l'incontro che "dà energia", e l'energia non è una sensazione, è una riduzione misurabile della resistenza. Se spingono in direzioni che alzano il costo dell'altro, ciascuno trova la propria geodetica più difficile, e il surprisal cresce per entrambi.
 
-Due onde in perfetta opposizione di fase si annullano. Questo annullamento non è distruzione: è stabilità. È esattamente il principio alla base della cancellazione attiva del rumore, dove per eliminare un suono indesiderato si genera un'onda della stessa frequenza in opposizione di fase. Il risultato è silenzio, che è la condizione di minima entropia del sistema acustico. La cancellazione funziona solo con un'onda della stessa frequenza: non qualsiasi opposizione produce stabilità, solo quella precisa.
+C'è un terzo caso, che merita precisione perché il saggio lo aveva descritto male. Due spinte uguali e contrarie producono una geometria apparentemente ferma. Non è stabilità: è una tensione mantenuta. Il campo resta immobile solo finché entrambi i nodi continuano a spingere, e il costo di quella spinta non scompare, si accumula. È carico cognitivo cronico nel senso della sezione 1.2, non minimo di energia. La quiete che ne risulta è la quiete di due forze che si consumano a vicenda. Una relazione che "funziona" solo a patto che nessuno dei due smetta di compensare l'altro ha questa struttura, e il suo costo si vede nel momento in cui uno dei due smette.
 
-La compatibilità tra geodetiche non dipende dagli individui in sé, ma dagli stati contestuali che esprimono in quel sistema specifico.
+La compatibilità tra geodetiche, dunque, ha una definizione operativa: due stati contestuali sono compatibili in un campo quando le deformazioni che vi producono abbassano reciprocamente il costo. Non dipende dagli individui in sé, ma da ciò che esprimono in quel sistema specifico. Gli stessi due nodi possono essere compatibili in un campo e opposti in un altro.
 
-#### 4.2 Il modello del campo: la ricalibrazione permanente
+#### 4.2 La deformazione permanente: la traccia
 
-L'interazione tra due geodetiche non lascia il sistema invariato. Ogni incontro significativo modifica la struttura del campo in cui avviene, esattamente come gli elettroni che entrano in un campo magnetico statico ne cambiano la resistenza complessiva, ridisegnando i percorsi di tutti i portatori di carica successivi.
+La perturbazione non si riassorbe. Ogni incontro significativo è un passo di addestramento del campo: la deformazione prodotta dai due nodi resta nella geometria dopo che i nodi si sono allontanati, e ridisegna le geodetiche di chiunque attraversi quella regione in seguito, compresi i due nodi stessi. È la differenza tra la scala dell'istante e la scala del tempo: nella prima il campo viene spinto, nella seconda il campo ha imparato.
 
 Lo stato peculiare di ciascun individuo viene modificato dall'interazione, espandendo o contraendo i domini in cui il suo stato contestuale futuro sarà a bassa o alta resistenza.
 
@@ -226,9 +226,9 @@ La valutazione energetica di una relazione non è mai completa nel momento in cu
 
 #### 4.3 L'asimmetria dei sistemi e il costo nascosto
 
-Un individuo può percepire un forte aumento della propria energia in una relazione e interpretarlo come interferenza costruttiva, quando in realtà sta generando quell'energia autonomamente, senza che l'altro contribuisca in modo sostanziale al campo. Nel modello delle onde, l'onda dell'altro non è in risonanza: è quasi assente. Nel modello del campo, l'altro individuo funziona come una fondamenta statica su cui si erige l'incremento del fronte d'onda di chi investe: non modifica il campo, lo subisce passivamente.
+Un individuo può percepire un forte aumento della propria energia in una relazione e interpretarlo come una composizione favorevole delle due spinte, quando in realtà sta generando quell'energia autonomamente, senza che l'altro contribuisca in modo sostanziale al campo. Nel momento dell'incontro, la spinta dell'altro è quasi assente: la riduzione di resistenza che il primo percepisce è prodotta dalla sua sola deformazione. Nel tempo, l'altro non ha lasciato traccia: la geometria che il primo credeva costruita in due è stata costruita da uno solo.
 
-Quando la natura asimmetrica del sistema viene esplicitata, avviene un doppio collasso: crolla la fondamenta percepita nel modello del campo, e il fronte d'onda subisce una variazione brusca nel modello delle onde. È uno degli stati ad alto costo cognitivo più intensi che il sistema possa sostenere, perché richiede la revisione contemporanea sia dell'interazione puntuale che della struttura permanente del campo che si credeva condiviso.
+Quando la natura asimmetrica del sistema viene esplicitata, il collasso è uno, ma investe entrambe le scale insieme: la spinta che si credeva composta si rivela singola, e la traccia che si credeva condivisa si rivela propria. È uno degli stati ad alto costo cognitivo più intensi che il sistema possa sostenere, perché il nodo deve rivedere in un solo momento ciò che faceva e ciò che aveva costruito.
 
 #### 4.4 La dissoluzione consapevole
 
@@ -284,7 +284,7 @@ La vita umana ha la stessa struttura superficiale: eventi apparentemente casuali
 > *"Non essere schiavo delle tue passioni, ma il loro signore."*
 > — Marco Aurelio
 
-Siamo partiti da una bolla di sapone e da un raggio di luce. Abbiamo attraversato la fisica dell'equilibrio, la struttura della scelta come collasso di possibilità, la natura delle epifanie come segnali di un campo saturo. Abbiamo esaminato la geometria delle relazioni attraverso due modelli complementari, la struttura frattale del destino, e il parallelo con il Free Energy Principle di Friston che fornisce a tutto questo la base neuroscientifico-matematica.
+Siamo partiti da una bolla di sapone e da un raggio di luce. Abbiamo attraversato la fisica dell'equilibrio, la struttura della scelta come collasso di possibilità, la natura delle epifanie come segnali di un campo saturo. Abbiamo esaminato la geometria delle relazioni come un solo campo osservato a due scale, la struttura frattale del destino, e il parallelo con il Free Energy Principle di Friston che fornisce a tutto questo la base neuroscientifico-matematica.
 
 Il fatalismo quantico propone una forma di **stoicismo computazionale**. Non la rassegnazione di chi accetta il destino perché non può cambiarlo, ma la precisione di chi conosce il sistema in cui opera: sa dove intervenire, quando farlo, e dove l'energia produce modifiche strutturali invece di dissiparsi senza effetto. È una teoria descrittiva: non prescrive come vivere, non giudica le scelte, non distingue tra esiti buoni e cattivi. Descrive la struttura del costo nel sistema in cui le scelte avvengono.
 
