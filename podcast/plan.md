@@ -1,7 +1,7 @@
 # Piano podcast — L'universo a minima energia
 
 Formato: narrato, una voce. Categoria del feed: Society & Culture / Philosophy. Motore: ElevenLabs (`eleven_v4`), voce Mr. Magoo (`13Cuh3NuYvWOVQtLbRN8`, scelta dell'autore dopo i campioni), stability 0,5, similarity_boost 0,75, style 0, speed 1,0. Audio in cache in `podcast/cache/`, committata in git (scelta dell'autore): un paragrafo che non cambia non consuma crediti, anche in una sessione nuova.
-Intro: `podcast/music/*.wav` da generare con `export_podcast.py jingle --style grime-loop --seed 1 --bpm 150 --bed 0.25`, intro_overlap 1,5. Nessuna outro. Bitrate 96k.
+Nessuna musica: niente jingle né outro, scelta dell'autore (è un saggio di filosofia, non intrattenimento). Bitrate 96k.
 Fonte: `chapters/` (copia identica di `saggio.md`, una sezione per file, tutti `complete`). I copioni si rigenerano con `python3 export_podcast.py scripts`; `python3 export_podcast.py check` segnala i copioni non allineati. Descrizione, riassunto iniziale (`recap`) e gancio finale (`teaser`) vivono nel frontmatter di ogni copione.
 
 ## Episodi (confermati dall'autore)
@@ -49,5 +49,4 @@ Lo script viene da mantra-prompting. Nel saggio non ci sono Morse, box di sistem
 
 ## Aperto
 
-- **Jingle**: lo stile `grime-loop` scarica al primo uso i campioni VCSL (CC0) da GitHub, in contrasto con la regola "niente musica o campioni scaricati da fuori". Da decidere prima del build.
 - **GitHub Pages** sulla cartella `docs/`: la attiva l'autore. `build_sito.py` va semplificato (personaggi e grafo non esistono nel saggio).
