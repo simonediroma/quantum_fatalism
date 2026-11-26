@@ -3,7 +3,7 @@ episode: 1
 title: "Episodio 1 — Introduzione. La luce, la sfera e il costo del pensiero · Capitolo I. La fisica dell'equilibrio: il principio di minimo carico cognitivo"
 description: "Perché la luce sceglie la strada più economica, e cosa c'entra con il destino. Il principio di minimo carico cognitivo, il surprisal e la differenza tra fatica produttiva e fatica sterile."
 source: chapters/01-introduzione.md, chapters/02-capitolo-1.md
-status: "script"
+status: "approved"
 recap: ""
 teaser: "si parla dell'osservatore: di chi sceglie, di cosa porta con sé quando entra in un sistema, e del perché vedere tutte le alternative non aiuta a decidere."
 ---

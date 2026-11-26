@@ -3,7 +3,7 @@ episode: 6
 title: "Episodio 6 — Appendice II. Il Free Energy Principle di Friston: convergenze con il fatalismo quantico · Appendice III. Lo spazio latente e la geometria dell'informazione: un solo quadro"
 description: "Le appendici: le convergenze con il Free Energy Principle di Friston e lo spazio latente come modello del fatalismo quantico, tra geometria dell'informazione e decoerenza."
 source: chapters/09-appendice-2.md, chapters/10-appendice-3.md
-status: "script"
+status: "approved"
 recap: "il saggio si è chiuso con lo stoicismo computazionale: non forzare la tendenza del sistema né opporsi, ma riconoscere il momento in cui è permeabile."
 teaser: ""
 closing: "Questo era L'universo a minima energia, di Simone Razzano. Non una destinazione, ma una direzione."

@@ -3,7 +3,7 @@ episode: 5
 title: "Episodio 5 — Capitolo V. La geometria del destino: Riemann, Mandelbrot e la linea critica · Conclusione. L'arte di scorrere: stoicismo computazionale"
 description: "La geometria del destino tra Riemann e Mandelbrot, la linea critica, e la conclusione: lo stoicismo computazionale come arte di scorrere."
 source: chapters/06-capitolo-5.md, chapters/07-conclusione.md
-status: "script"
+status: "approved"
 recap: "abbiamo parlato delle relazioni: due nodi che deformano lo stesso campo, l'incontro che si compone o si oppone, e la traccia che resta nella geometria."
 teaser: "chiudiamo con le appendici scientifiche: il dialogo con le neuroscienze di Friston, e un quadro matematico che tiene insieme tutto il saggio."
 ---

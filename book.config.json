@@ -1,7 +1,9 @@
 {
   "title": "L'universo a minima energia",
   "subtitle": "Teoria e metafisica del fatalismo quantico",
-  "author": "Simone Razzano",
+  "author": {
+    "name": "Simone Razzano"
+  },
   "language": "it",
   "preset": "essay",
   "license": "CC BY-NC-ND 4.0",

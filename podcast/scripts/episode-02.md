@@ -3,7 +3,7 @@ episode: 2
 title: "Episodio 2 — Capitolo II. L'osservatore e la realtà: stato peculiare, stato contestuale e scelta"
 description: "La doppia fenditura come forma della scelta. Lo stato peculiare, la qualità dell'attenzione, l'imprinting e perché la permeabilità ha un ottimo e non un massimo."
 source: chapters/03-capitolo-2.md
-status: "script"
+status: "approved"
 recap: "abbiamo visto che ogni sistema tende alla configurazione di minor costo, e che la fatica conta solo quando arriva nel momento in cui il sistema è permeabile al cambiamento."
 teaser: "parliamo di quei pensieri che arrivano già formati, senza costo, e di cosa succede quando la ragione comincia a costruirci sopra."
 ---

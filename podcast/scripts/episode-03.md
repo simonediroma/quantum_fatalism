@@ -3,7 +3,7 @@ episode: 3
 title: "Episodio 3 — Capitolo III. Le epifanie: segnali del campo"
 description: "Cosa sono le epifanie, come si distinguono dagli impulsi, e perché il problema non è generarle ma quello che succede dopo."
 source: chapters/04-capitolo-3.md
-status: "script"
+status: "approved"
 recap: "abbiamo parlato dell'osservatore: lo stato peculiare che ognuno porta con sé, la qualità dell'attenzione, e una permeabilità che ha un punto ottimale."
 teaser: "lasciamo il singolo e guardiamo cosa accade quando due traiettorie si incontrano, e cosa resta dopo che si sono separate."
 ---

@@ -3,7 +3,7 @@ episode: 4
 title: "Episodio 4 — Capitolo IV. Il campo condiviso: la fisica delle relazioni"
 description: "Le relazioni come un solo campo osservato a due scale: l'incontro e la traccia che lascia. La compatibilità, l'asimmetria e la dissoluzione consapevole."
 source: chapters/05-capitolo-4.md
-status: "script"
+status: "approved"
 recap: "abbiamo visto che le epifanie si ricevono invece di generarsi, e che la razionalità, costruendoci sopra, ne aumenta il costo senza aggiungere precisione."
 teaser: "la matematica entra in scena: lo spazio curvo, i frattali, e una linea che ordina il caos senza mai lasciarsi raggiungere."
 ---
