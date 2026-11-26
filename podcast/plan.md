@@ -10,12 +10,12 @@ Regola della skill: le sezioni sotto le ~800 parole si accorpano. Stima a 150 pa
 
 | Ep | Sezioni | Parole | Durata | Stato |
 |---|---|---|---|---|
-| 1 | Introduzione — La luce, la sfera e il costo del pensiero + Capitolo I — La fisica dell'equilibrio | 1.592 | ~11 min | approvato |
-| 2 | Capitolo II — L'osservatore e la realtà | 1.379 | ~9 min | approvato |
-| 3 | Capitolo III — Le epifanie: segnali del campo | 1.073 | ~7 min | approvato |
-| 4 | Capitolo IV — Il campo condiviso: la fisica delle relazioni | 1.136 | ~8 min | approvato |
-| 5 | Capitolo V — La geometria del destino + Conclusione — L'arte di scorrere | 1.044 | ~7 min | approvato |
-| 6 | Appendice II — Friston + Appendice III — Lo spazio latente e la geometria dell'informazione | 1.634 | ~11 min | approvato |
+| 1 | Introduzione — La luce, la sfera e il costo del pensiero + Capitolo I — La fisica dell'equilibrio | 1.592 | ~11 min | audio generato |
+| 2 | Capitolo II — L'osservatore e la realtà | 1.379 | ~9 min | audio generato |
+| 3 | Capitolo III — Le epifanie: segnali del campo | 1.073 | ~7 min | audio generato |
+| 4 | Capitolo IV — Il campo condiviso: la fisica delle relazioni | 1.136 | ~8 min | audio generato |
+| 5 | Capitolo V — La geometria del destino + Conclusione — L'arte di scorrere | 1.044 | ~7 min | audio generato |
+| 6 | Appendice II — Friston + Appendice III — Lo spazio latente e la geometria dell'informazione | 1.634 | ~11 min | audio generato |
 
 Totale: sei episodi, circa 53 minuti.
 
