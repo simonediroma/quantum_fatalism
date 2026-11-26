@@ -6,8 +6,8 @@ La linea di minore resistenza disponibile ora, in questo sistema, con questa con
 ## Nel testo
 - Definita come traiettoria naturale determinata dal sistema e da ciò che si porta con sé — `c2:16`
 - È istantanea, come un arcobaleno — `c2:34`
-- Istantanea e continuamente riorganizzata — `c4:35`
-- L'individuo non la vede intera: percepisce una distribuzione di probabilità — `c4:37`
+- Istantanea e continuamente riorganizzata — `c4:36`
+- L'individuo non la vede intera: percepisce una distribuzione di probabilità — `c4:38`
 - Linee più diritte possibili data la curvatura (Riemann) — `c6:13`
 - Istantanea perché la superficie su cui si calcola cambia a ogni istante — `c10:12`
 

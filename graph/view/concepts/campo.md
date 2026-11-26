@@ -4,7 +4,7 @@
 Lo spazio condiviso in cui avvengono incontri ed epifanie; nel modello computazionale, la metrica.
 
 ## Nel testo
-- Campo continuo, non rete di connessioni discrete — `c4:43`
+- Campo continuo, non rete di connessioni discrete — `c4:44`
 - Il campo distribuisce l'entropia tra tutti i nodi — `c5:38`
 - Il campo è uno spazio latente in addestramento continuo — `c10:12`
 - La metrica è il campo — `c10:18`

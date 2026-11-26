@@ -89,4 +89,3 @@
 ## Punti aperti
 - [Autosimilarità](view/concepts/autosimilarita.md): L'Appendice III dichiara che il modello computazionale non ha struttura frattale in alcun senso dimostrato: la tesi frattale di c6 resta senza formalizzazione.
 - [Decoerenza](view/concepts/decoerenza.md): L'evidenza empirica che motiva questa lettura (effetto disgiunzione) è dichiarata contestata su tre fronti (c10).
-- [Storia della tua vita / Arrival](view/sources/storia-della-tua-vita.md): c4:39 scrive "Il film Arrival di Ted Chiang": il film è di Denis Villeneuve, tratto dal racconto di Chiang. Da correggere nel testo.

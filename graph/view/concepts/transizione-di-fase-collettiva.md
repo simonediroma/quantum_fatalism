@@ -4,7 +4,7 @@
 Aggiornamento discontinuo del modello generativo condiviso quando la discrepanza supera una soglia.
 
 ## Nel testo
-- Il modello condiviso si aggiorna in modo discontinuo oltre una soglia critica — `c4:51`
+- Il modello condiviso si aggiorna in modo discontinuo oltre una soglia critica — `c4:52`
 - Collegata all'inferenza federata di Friston — `c9:18`
 
 ## Citata da

@@ -2,11 +2,11 @@ id: "razionalizzazione-demolisce"
 name: "La razionalizzazione demolisce l'epifania"
 summary: "La razionalità costruisce sopra l'epifania e la trasforma in un processo costoso; la complessità del ragionamento misura l'energia sprecata."
 traits:
-  - {text: "Aggiunge variabili, pesa convenienze, confronta scenari: un segnale a basso costo diventa costoso e instabile", source: "c4:57", quote: "La razionalità interviene e costruisce sopra."}
-  - {text: "Il segnale più affidabile è la complessità crescente del ragionamento costruito per la resistenza", source: "c4:59", quote: "Il segnale più affidabile che un'elaborazione stia demolendo un'epifania"}
+  - {text: "Aggiunge variabili, pesa convenienze, confronta scenari: un segnale a basso costo diventa costoso e instabile", source: "c4:58", quote: "La razionalità interviene e costruisce sopra."}
+  - {text: "Il segnale più affidabile è la complessità crescente del ragionamento costruito per la resistenza", source: "c4:60", quote: "Il segnale più affidabile che un'elaborazione stia demolendo un'epifania"}
   - {text: "Letta come decoerenza indotta: ogni scenario registrato azzera una coerenza", source: "c10:20", quote: "è decoerenza indotta"}
 notes:
   - {text: "In c10 il legame con la decoerenza è dichiarato come lettura possibile, con evidenza empirica contestata."}
 relations:
-  - {to: "epifania", type: "contraddice", source: "c4:57", quote: "La razionalità interviene e costruisce sopra."}
+  - {to: "epifania", type: "contraddice", source: "c4:58", quote: "La razionalità interviene e costruisce sopra."}
   - {to: "decoerenza", type: "letta come", source: "c10:20", quote: "è decoerenza indotta"}

@@ -4,8 +4,8 @@ summary: "La linea di minore resistenza disponibile ora, in questo sistema, con 
 traits:
   - {text: "Definita come traiettoria naturale determinata dal sistema e da ciò che si porta con sé", source: "c2:16", quote: "Questa traiettoria è ciò che il saggio chiama **geodetica**"}
   - {text: "È istantanea, come un arcobaleno", source: "c2:34", quote: "La geodetica è sempre istantanea, come un arcobaleno"}
-  - {text: "Istantanea e continuamente riorganizzata", source: "c4:35", quote: "La geodetica nel fatalismo quantico è istantanea, come un arcobaleno."}
-  - {text: "L'individuo non la vede intera: percepisce una distribuzione di probabilità", source: "c4:37", quote: "Ma l'individuo non vede la geodetica nella sua interezza."}
+  - {text: "Istantanea e continuamente riorganizzata", source: "c4:36", quote: "La geodetica nel fatalismo quantico è istantanea, come un arcobaleno."}
+  - {text: "L'individuo non la vede intera: percepisce una distribuzione di probabilità", source: "c4:38", quote: "Ma l'individuo non vede la geodetica nella sua interezza."}
   - {text: "Linee più diritte possibili data la curvatura (Riemann)", source: "c6:13", quote: "seguono le geodetiche, le linee più diritte possibili"}
   - {text: "Istantanea perché la superficie su cui si calcola cambia a ogni istante", source: "c10:12", quote: "La geodetica è istantanea per questo"}
 notes:

@@ -171,7 +171,7 @@ La geodetica nel fatalismo quantico è istantanea, come un arcobaleno. Descrive 
 
 Ma l'individuo non vede la geodetica nella sua interezza. Percepisce una distribuzione di probabilità: una direzione, una tendenza, una sensazione di dove il sistema sta andando senza una visione chiara di dove finirà.
 
-Questa visione parziale non è un limite: è una caratteristica necessaria del sistema. Il film *Arrival* di Ted Chiang illustra questa dinamica con precisione: la protagonista percepisce la propria geodetica nella sua interezza, incluso il suo costo più alto. Ma quella visione completa non produce saggezza: produce o paralisi o ossessione, entrambi stati ad alto costo. La visione probabilistica è la configurazione a minima energia della percezione temporale. Abbastanza per riconoscere la direzione, non abbastanza da essere paralizzati dalla destinazione.
+Questa visione parziale non è un limite: è una caratteristica necessaria del sistema. Il film *Arrival*, tratto dal racconto di Ted Chiang *Storia della tua vita*, illustra questa dinamica con precisione: la protagonista percepisce la propria geodetica nella sua interezza, incluso il suo costo più alto. Ma quella visione completa non produce saggezza: produce o paralisi o ossessione, entrambi stati ad alto costo. La visione probabilistica è la configurazione a minima energia della percezione temporale. Abbastanza per riconoscere la direzione, non abbastanza da essere paralizzati dalla destinazione.
 
 #### 3.4 Saturazione del campo e sincronizzazione spontanea
 

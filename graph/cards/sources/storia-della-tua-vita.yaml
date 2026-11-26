@@ -4,8 +4,6 @@ aliases: ["Arrival"]
 summary: "Il racconto di Ted Chiang e il film tratto: vedere l'intera geodetica produce paralisi o ossessione."
 traits:
   - {text: "Usa il principio di Fermat per una percezione teleologica del tempo", source: "c8:26", quote: "Chiang utilizza esplicitamente il principio di Fermat"}
-  - {text: "Nel film la visione completa non produce saggezza", source: "c4:39", quote: "Il film *Arrival* di Ted Chiang illustra questa dinamica con precisione"}
+  - {text: "Il film Arrival, tratto dal racconto: la visione completa della geodetica non produce saggezza", source: "c4:40", quote: "Il film *Arrival*, tratto dal racconto di Ted Chiang *Storia della tua vita*"}
 relations:
   - {to: "ted-chiang", type: "di", source: "c8:26", quote: "**Ted Chiang, *Storia della tua vita***"}
-open:
-  - {text: "c4:39 scrive \"Il film Arrival di Ted Chiang\": il film è di Denis Villeneuve, tratto dal racconto di Chiang. Da correggere nel testo."}

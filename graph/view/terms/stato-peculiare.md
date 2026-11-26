@@ -7,7 +7,7 @@ La struttura specifica del modello interno, costruita dalla qualità dell'attenz
 - Definito: non quantità di esperienze, ma profondità dell'attraversamento — `c3:14`
 - Non è cosa vivi: è come lo vivi — `c3:14`
 - Si degrada lungo un continuum ed è recuperabile — `c3:46`
-- Integro, produce epifanie; compromesso, produce impulsi — `c4:29`
+- Integro, produce epifanie; compromesso, produce impulsi — `c4:30`
 - Nel modello computazionale è il codificatore personale — `c10:18`
 
 ## Relazioni

@@ -2,5 +2,5 @@ id: "transizione-di-fase-collettiva"
 name: "Transizione di fase collettiva"
 summary: "Aggiornamento discontinuo del modello generativo condiviso quando la discrepanza supera una soglia."
 traits:
-  - {text: "Il modello condiviso si aggiorna in modo discontinuo oltre una soglia critica", source: "c4:51", quote: "il sistema aggiorna il proprio modello in modo discontinuo"}
+  - {text: "Il modello condiviso si aggiorna in modo discontinuo oltre una soglia critica", source: "c4:52", quote: "il sistema aggiorna il proprio modello in modo discontinuo"}
   - {text: "Collegata all'inferenza federata di Friston", source: "c9:18", quote: "attraverso il concetto di inferenza federata"}

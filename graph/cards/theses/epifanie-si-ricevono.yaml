@@ -2,9 +2,9 @@ id: "epifanie-si-ricevono"
 name: "Le epifanie si ricevono, non si generano"
 summary: "Le epifanie emergono già formate perché il loro costo è già stato distribuito nel campo."
 traits:
-  - {text: "Non costano: emergono già formate, già a bassa energia", source: "c4:15", quote: "emergono già formate, già a bassa energia"}
-  - {text: "Il singolo non le elabora: le riceve", source: "c4:15", quote: "Il singolo non le elabora: le riceve."}
-  - {text: "Il problema non è generarle ma cosa succede dopo", source: "c4:55", quote: "Il problema non è generare epifanie."}
+  - {text: "Non costano: emergono già formate, già a bassa energia", source: "c4:16", quote: "emergono già formate, già a bassa energia"}
+  - {text: "Il singolo non le elabora: le riceve", source: "c4:16", quote: "Il singolo non le elabora: le riceve."}
+  - {text: "Il problema non è generarle ma cosa succede dopo", source: "c4:56", quote: "Il problema non è generare epifanie."}
 relations:
-  - {to: "epifania", type: "riguarda", source: "c4:15", quote: "Il singolo non le elabora: le riceve."}
-  - {to: "campo", type: "dipende da", source: "c4:15", quote: "il costo della loro generazione è già stato distribuito nel campo"}
+  - {to: "epifania", type: "riguarda", source: "c4:16", quote: "Il singolo non le elabora: le riceve."}
+  - {to: "campo", type: "dipende da", source: "c4:16", quote: "il costo della loro generazione è già stato distribuito nel campo"}

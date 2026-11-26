@@ -2,7 +2,7 @@ id: "campo"
 name: "Campo"
 summary: "Lo spazio condiviso in cui avvengono incontri ed epifanie; nel modello computazionale, la metrica."
 traits:
-  - {text: "Campo continuo, non rete di connessioni discrete", source: "c4:43", quote: "Emergono dalla saturazione di un campo continuo."}
+  - {text: "Campo continuo, non rete di connessioni discrete", source: "c4:44", quote: "Emergono dalla saturazione di un campo continuo."}
   - {text: "Il campo distribuisce l'entropia tra tutti i nodi", source: "c5:38", quote: "Il campo la distribuisce tra tutti i nodi presenti"}
   - {text: "Il campo è uno spazio latente in addestramento continuo", source: "c10:12", quote: "Il campo è uno spazio latente in addestramento continuo"}
   - {text: "La metrica è il campo", source: "c10:18", quote: "La **metrica** è il campo"}

@@ -4,4 +4,4 @@
 Autore dell'epigrafe del Capitolo III.
 
 ## Nel testo
-- Citato nel testo — `c4:9`
+- Citato nel testo — `c4:10`

@@ -439,7 +439,7 @@
     4,
     8
    ],
-   "open": 1
+   "open": 0
   },
   {
    "id": "tversky-shafir",
@@ -853,7 +853,7 @@
    "from": "saturazione-del-campo",
    "to": "transizione-di-fase-collettiva",
    "type": "corrisponde a",
-   "source": "c4:51"
+   "source": "c4:52"
   },
   {
    "from": "sistema-emergente",
@@ -955,13 +955,13 @@
    "from": "epifania",
    "to": "impulso",
    "type": "si distingue da",
-   "source": "c4:29"
+   "source": "c4:30"
   },
   {
    "from": "epifania",
    "to": "saturazione-del-campo",
    "type": "nasce da",
-   "source": "c4:43"
+   "source": "c4:44"
   },
   {
    "from": "fatica-produttiva",
@@ -997,7 +997,7 @@
    "from": "impulso",
    "to": "insieme-attrattore",
    "type": "corrisponde a",
-   "source": "c4:31"
+   "source": "c4:32"
   },
   {
    "from": "linea-critica",
@@ -1075,13 +1075,13 @@
    "from": "epifanie-si-ricevono",
    "to": "epifania",
    "type": "riguarda",
-   "source": "c4:15"
+   "source": "c4:16"
   },
   {
    "from": "epifanie-si-ricevono",
    "to": "campo",
    "type": "dipende da",
-   "source": "c4:15"
+   "source": "c4:16"
   },
   {
    "from": "geodetica-letterale",
@@ -1159,7 +1159,7 @@
    "from": "razionalizzazione-demolisce",
    "to": "epifania",
    "type": "contraddice",
-   "source": "c4:57"
+   "source": "c4:58"
   },
   {
    "from": "razionalizzazione-demolisce",
