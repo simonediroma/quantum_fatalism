@@ -1,6 +1,6 @@
 # Piano podcast — L'universo a minima energia
 
-Formato: narrato, una voce. Motore: ElevenLabs (`eleven_v4`), voce Dimitri (`irpmjMzI7WEB83hTpOZA`), stability 0,5, similarity_boost 0,75, style 0, speed 1,0. Audio in cache in `podcast/cache/`, committata in git (scelta dell'autore): un paragrafo che non cambia non consuma crediti, anche in una sessione nuova.
+Formato: narrato, una voce. Categoria del feed: Society & Culture / Philosophy. Motore: ElevenLabs (`eleven_v4`), voce Dimitri (`irpmjMzI7WEB83hTpOZA`), stability 0,5, similarity_boost 0,75, style 0, speed 1,0. Audio in cache in `podcast/cache/`, committata in git (scelta dell'autore): un paragrafo che non cambia non consuma crediti, anche in una sessione nuova.
 Intro: `podcast/music/*.wav` da generare con `export_podcast.py jingle --style grime-loop --seed 1 --bpm 150 --bed 0.25`, intro_overlap 1,5. Nessuna outro. Bitrate 96k.
 Fonte: `chapters/` (copia identica di `saggio.md`, una sezione per file, tutti `complete`). I copioni si rigenerano con `python3 export_podcast.py scripts`; `python3 export_podcast.py check` segnala i copioni non allineati. Descrizione, riassunto iniziale (`recap`) e gancio finale (`teaser`) vivono nel frontmatter di ogni copione.
 
@@ -46,7 +46,7 @@ Lo script viene da mantra-prompting. Nel saggio non ci sono Morse, box di sistem
 ## Da confermare prima dei copioni
 
 - Accorpamenti degli episodi e esclusione dell'Appendice I.
-- Categoria del feed: nel config c'è Fiction / Science Fiction, come da istruzioni; per un saggio la proposta è Society & Culture / Philosophy.
-- Descrizione del podcast (due righe): nel config c'è il segnaposto "DA CONFERMARE".
+- Descrizione del podcast: bozza in `book.config.json`, da approvare.
+- Voce narrante: campioni in `podcast/samples/` (Antonio Farina, Andy M, Francesco, Mr. Magoo, Dimitri).
 - Pubblicazione su GitHub Pages di questo repository (`simonediroma.github.io/quantum_fatalism`): `base_url`, `feed_url`, `link` e `cover_url` sono impostati così. La copertina (3000×3000) non esiste ancora.
 - Il sito: `build_sito.py` di mantra-prompting si appoggia a personaggi e grafo, che il saggio non ha; va semplificato prima del passo 5.
