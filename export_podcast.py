@@ -1258,9 +1258,11 @@ def cost(project_dir, names):
 
 # ─── Scripts from chapters ────────────────────────────────────────────────────
 # `scripts` rebuilds podcast/scripts/episode-NN.md from chapters/NN-*.md with the
-# adaptation rules of this project (Morse, system boxes, numbers), keeping the
+# adaptation rules of this essay (see podcast/plan.md → Pronunciation), keeping the
 # per-episode fields written by the author in the script frontmatter
 # (description, recap, teaser, status). `check` reports scripts out of sync.
+# Episodes group chapters as in book.config.json → podcast.episodes
+# (a list of lists of chapter numbers); chapters left out are not read.
 
 _UNITS = ["zero", "uno", "due", "tre", "quattro", "cinque", "sei", "sette", "otto", "nove", "dieci",
           "undici", "dodici", "tredici", "quattordici", "quindici", "sedici", "diciassette", "diciotto", "diciannove"]
@@ -1289,185 +1291,120 @@ def italian_number(n):
         return w + (italian_number(r) if r else "")
     return str(n)
 
-# Morse lines that are read as sentences instead of word by word (author's choice).
-MORSE_SPOKEN = {
-    "STAI / ESAGERANDO / CON / LO / YOGA / IL / TUO / CUORE / NON / REGGE / PIU / FERMATI / O / RISCHI / LA / VITA":
-        "Stai esagerando con lo yoga. Il tuo cuore non regge più. Fermati, o rischi la vita.",
-}
-# Morse quoted inside a sentence.
-MORSE_INLINE = {
-    "NO / SONO / QUI / CON / TE": '"no, sono qui con te"',
-    "IO / SONO / QUI": '"io sono qui"',
-}
-_MORSE_FIX = {"SI": "Sì", "PIU": "Più"}
+_ROMAN = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5, "VI": 6, "VII": 7, "VIII": 8, "IX": 9, "X": 10}
+_ROMAN_CENTURY = {"XVII": "diciassettesimo", "XVIII": "diciottesimo", "XIX": "diciannovesimo", "XX": "ventesimo", "XXI": "ventunesimo"}
+_ORDINALS = ["Primo", "Secondo", "Terzo", "Quarto", "Quinto", "Sesto", "Settimo", "Ottavo", "Nono", "Decimo"]
 
-def morse_words(seq):
-    return " ".join(_MORSE_FIX.get(w, w.capitalize()) + "." for w in seq.split(" / "))
-
-_WEEKDAYS = {"lun": "lunedì", "mar": "martedì", "mer": "mercoledì", "gio": "giovedì",
-             "ven": "venerdì", "sab": "sabato", "dom": "domenica"}
-
-def spoken_time(text):
-    # 23:34 → "ventitré e trentaquattro"; 08:00:01 → "otto, zero zero e un secondo"
-    def t(m):
-        h, mm, ss = int(m.group(1)), m.group(2), m.group(3)
-        out = italian_number(h)
-        mins = "zero zero" if mm == "00" else italian_number(int(mm))
-        if ss is None:
-            return out + (" in punto" if mm == "00" else " e " + mins)
-        sec = "un secondo" if int(ss) == 1 else italian_number(int(ss)) + " secondi"
-        return f"{out}, {mins} e {sec}"
-    return re.sub(r"\b(\d{1,2}):(\d{2})(?::(\d{2}))?\b", t, text)
+# Formule e grafie da leggere in un modo preciso (vedi podcast/plan.md, Pronunciation).
+FORMULAS = {"U = mgh": "U uguale emme gi acca"}
+PRONUNCIATION = {}
 
 def spoken_numbers(text):
-    text = spoken_time(text)
-    text = re.sub(r"\b2x\b", "doppia", text)
+    text = re.sub(r"\b(Capitol[oi]|Appendic[ei])\s+(I{1,3}|IV|V|VI{0,3}|IX|X)\b",
+                  lambda m: f"{m.group(1)} {italian_number(_ROMAN[m.group(2)])}", text)
+    text = re.sub(r"\b(XVII|XVIII|XIX|XX|XXI)\s+secolo\b", lambda m: _ROMAN_CENTURY[m.group(1)] + " secolo", text)
+    text = re.sub(r"\b(\d+)\.(\d+)\b", lambda m: f"{italian_number(int(m.group(1)))} punto {italian_number(int(m.group(2)))}", text)
     text = re.sub(r"(\d+)\s*%", lambda m: italian_number(int(m.group(1))) + " per cento", text)
     return re.sub(r"\b\d+\b", lambda m: italian_number(int(m.group(0))), text)
 
-# System boxes read with a wording approved by the author (exact chapter line → spoken text).
-BOX_SPOKEN = {
-    "**TABELLA DI CONVERSIONE · uso personale**": "Tabella di conversione. Uso personale.",
-    "**15 minuti · smutandata semplice**": "Quindici minuti: smutandata semplice.",
-    "**30 minuti · doppia smutandata**": "Trenta minuti: doppia smutandata.",
-    "**45 minuti · tripla smutandata**": "Quarantacinque minuti: tripla smutandata.",
-    "**60 minuti · smutandata con testa nel cestino** *(tetto del supervisore)*":
-        "Sessanta minuti: smutandata con testa nel cestino. Tetto del supervisore.",
-    "**Interdizione + 30% per 3 mesi · testa nel water con le mutande in testa** *(solo ispettori)*":
-        "Interdizione dal lavoro e trenta per cento dello stipendio per tre mesi: testa nel water con le mutande in testa. Solo ispettori.",
-}
-
-def spoken_box(line):
-    s = line.strip().strip("*").strip()
-    s = s.replace("[omesso in automatico]", "omesso in automatico").replace("[omesso]", "omesso")
-    s = re.sub(r"\bRif\.", "Riferimento", s)
-    s = re.sub(r"\bmod\.", "modello", s)
-    s = re.sub(r"\bTV\b", "tivù", s)
-    s = re.sub(r"\bTurno: B\b", "Turno: bi", s)
-    s = re.sub(r"([\w.-]+)@([\w.-]+)\.(\w+)",
-               lambda m: f"{m.group(1)} chiocciola {m.group(2).replace('.', ' punto ')} punto {m.group(3)}", s)
-    s = s.replace("_", " ").replace(" · ", ". ")
-    s = spoken_numbers(s)
-    return s if s.endswith((".", "!", "?", "…")) else s + "."
-
-def spoken_panel(line):
-    s = re.sub(r"^\s*>\s?", "", line).replace("*", "").strip()
-    s = re.sub(r"\b(lun|mar|mer|gio|ven|sab|dom)\b(?= \d)", lambda m: _WEEKDAYS[m.group(1)] + ",", s)
-    s = re.sub(r"[\U0001F000-\U0001FAFF☀-➿]\s*", "", s)
-    if s.count(" · ") >= 3:                      # list of values: read as one sentence
-        s = s.replace(" · ", ", ").replace(", …, ", "… ")
-        s = re.sub(r", (0|zero)$", r". Zero", s)
-    else:
-        s = s.replace(" · ", ". ")
-    s = spoken_numbers(s)
-    return s if s.endswith((".", "!", "?")) else s + "."
-
-# Parole che la voce accenta male: grafia del libro → grafia del copione (vedi podcast/plan.md, Pronunciation).
-PRONUNCIATION = {"ribere": "ribére"}
-
 def spoken_line(line):
+    for formula, said in FORMULAS.items():
+        line = line.replace(f"`{formula}`", said).replace(formula, said)
     line = re.sub(r"`([^`]+)`", r"\1", line)
-    def inline(m):
-        seq = m.group(1)
-        return MORSE_INLINE.get(seq, '"' + seq.replace(" / ", " ").lower() + '"')
-    line = re.sub(r"\*?\b([A-ZÀ-Ù']{2,}(?: / [A-ZÀ-Ù']+)+)\b\.?\*?", inline, line)
     for word, said in PRONUNCIATION.items():
         line = re.sub(r"\b" + re.escape(word) + r"\b", said, line)
     return spoken_numbers(line)
 
-# Onomatopee del libro (in corsivo nel testo) → effetto sonoro nel copione, letto E suonato.
-# Override/estensione in book.config.json → podcast.sfx_map {"clac": "nastro", ...}.
-SFX_MAP = {"dlin": "terminale", "clac": "nastro", "bzz bzz": "ewatch-mail", "bzzzz": "ewatch-timer",
-           "frrr": "stampante", "driin": "telefono", "clac clac": "porta", "crr": "vinile under", "crr crr": "vinile",
-           "cri-cri": "carrello", "zzz": "neon under"}
+def spoken_epigraph(lines):
+    # > *"Citazione."*  /  > — Autore   →   Citazione. Autore.
+    text = [re.sub(r"^\s*>\s?", "", l).replace("*", "").strip() for l in lines]
+    quote = " ".join(t for t in text if not t.startswith("—")).strip().strip('"“”').strip()
+    author = " ".join(t.lstrip("— ").strip() for t in text if t.startswith("—"))
+    out = spoken_line(quote if quote.endswith((".", "!", "?")) else quote + ".")
+    return out + (f" {author}." if author else "")
 
-def adapt_chapter_body(body, sfx_map=None, morse_pov=False):
-    sfx_map = {**SFX_MAP, **(sfx_map or {})}
+def adapt_chapter_body(body):
     out = []
-    last_morse = None
     for para in re.split(r"\n\s*\n", body.strip()):
         lines = [l for l in para.splitlines() if l.strip()]
-        if not lines or lines[0].strip() == "---" or lines[0].startswith("#"):
+        if not lines or lines[0].strip() == "---":
             continue
-        spoken = []
-        for word in sorted(sfx_map, key=len, reverse=True):
-            if re.search(r"\*" + re.escape(word) + r"[^\w*]*\*", para, flags=re.IGNORECASE):
-                spoken.append(f"[sfx {sfx_map[word]}]")
-                break
-        for l in lines:
-            s = l.strip()
-            if re.fullmatch(r"\*?[.\-– /]+\*?", s):                       # dots and dashes
-                if morse_pov:
-                    text = morse_decode(s); last_morse = text
-                    spoken.append(f"[sfx morse {text}]")
-                else:
-                    spoken.append("[pause 1.5]")
-            elif re.fullmatch(r"\*?([A-ZÀ-Ù']+(?: / [A-ZÀ-Ù']+)*)\.?\*?", s):   # Morse words
-                seq = re.fullmatch(r"\*?([A-ZÀ-Ù']+(?: / [A-ZÀ-Ù']+)*)\.?\*?", s).group(1)
-                text = seq.replace(" / ", " ")
-                if morse_pov and text != last_morse:
-                    spoken.append(f"[sfx morse {text}" + (" under]" if len(text.split()) > 3 else "]"))
-                last_morse = text
-                spoken.append(MORSE_SPOKEN.get(seq) or morse_words(seq))
-            elif s in BOX_SPOKEN:                                               # box with approved wording
-                spoken.append(BOX_SPOKEN[s])
-            elif re.fullmatch(r"\*\*.+\*\*", s):                                # system box
-                spoken.append(spoken_box(s))
-            elif s.startswith(">"):                                             # panel / blockquote
-                spoken.append(spoken_panel(s))
-            else:
-                spoken.append(spoken_line(s))
-        out.append("\n".join(spoken))
+        first = lines[0].strip()
+        if first.startswith("#"):                                            # titolo di paragrafo
+            title = re.sub(r"^#+\s*(\d+(\.\d+)*\s+)?", "", first).strip()
+            out.append(f"[pause 1]\n\n{spoken_line(title)}.")
+            continue
+        if first.startswith(">"):                                            # epigrafe
+            out.append(spoken_epigraph(lines))
+            continue
+        item = re.match(r"^(\d+)\.\s+\*\*(.+?)\*\*:\s*(.*)$", first)
+        if item:                                                             # elenco numerato → frase
+            n, term, rest = int(item.group(1)), item.group(2), item.group(3)
+            out.append(spoken_line(f"{_ORDINALS[n - 1]}: {term[0].lower() + term[1:]}. {rest[0].upper() + rest[1:]}"))
+            continue
+        out.append("\n".join(spoken_line(l.strip()) for l in lines))
     return "\n\n".join(out)
 
 def chapter_files(project_dir, names=None):
-    chapters = sorted((Path(project_dir) / "chapters").glob("[0-9][0-9]-*.md"))
-    if names:
-        wanted = {re.sub(r"\D", "", Path(n).stem)[:2] for n in names}
-        chapters = [c for c in chapters if c.stem[:2] in wanted]
-    return chapters
+    return sorted((Path(project_dir) / "chapters").glob("[0-9][0-9]-*.md"))
 
-def render_script(project_dir, chapter, existing_meta=None):
-    config = load_config(project_dir)
-    meta, text = split_frontmatter(chapter.read_text(encoding="utf-8"))
-    body = text.split("\n## Demolition Log")[0]
-    n = int(chapter.stem[:2])
-    old = existing_meta or {}
-    book = config.get("title", "").replace(": ", ". ").rstrip(".") + "."
+def episode_plan(project_dir, names=None):
+    """[(episode number, [chapter paths])] from podcast.episodes, or one chapter per episode."""
+    chapters = {int(c.stem[:2]): c for c in chapter_files(project_dir)}
+    groups = podcast_settings(load_config(project_dir)).get("episodes") or [[n] for n in sorted(chapters)]
+    plan = [(i, [chapters[n] for n in g]) for i, g in enumerate(groups, 1)]
+    if names:
+        wanted = {int(re.sub(r"\D", "", Path(n).stem) or 0) for n in names}
+        plan = [p for p in plan if p[0] in wanted]
+    return plan
+
+def chapter_heading(meta, chapter):
+    part = meta.get("part", "")
     title = meta.get("title", chapter.stem[3:])
+    return part, title
+
+def render_script(project_dir, n, chapters, existing_meta=None):
+    config = load_config(project_dir)
+    old = existing_meta or {}
+    book = config.get("title", "").rstrip(".") + "."
+    heads, bodies = [], []
+    for chapter in chapters:
+        meta, text = split_frontmatter(chapter.read_text(encoding="utf-8"))
+        part, title = chapter_heading(meta, chapter)
+        heads.append((part, title))
+        bodies.append((part, title, text.split("\n## Demolition Log")[0]))
     fm = {
         "episode": str(n),
-        "title": f"Capitolo {n} — {title}",
+        "title": f"Episodio {n} — " + " · ".join(f"{p}. {t}" for p, t in heads),
         "description": old.get("description", ""),
-        "source": f"chapters/{chapter.name}",
+        "source": ", ".join(f"chapters/{c.name}" for c in chapters),
         "status": old.get("status", "script"),
         "recap": old.get("recap", ""),
         "teaser": old.get("teaser", ""),
-        "sfx_open": old.get("sfx_open", ""),
+        "closing": old.get("closing", ""),
     }
-    head = "---\n" + "\n".join(f'{k}: "{v}"' if k not in ("episode", "source") else f"{k}: {v}" for k, v in fm.items() if not (k == "sfx_open" and not v)) + "\n---\n"
+    head = "---\n" + "\n".join(f'{k}: "{v}"' if k not in ("episode", "source") else f"{k}: {v}" for k, v in fm.items() if not (k == "closing" and not v)) + "\n---\n"
     parts = [f"{book} Episodio {italian_number(n)}."]
     if fm["recap"]:
         parts.append(fm["recap"] if fm["recap"].startswith("Nell'episodio precedente") else "Nell'episodio precedente, " + fm["recap"])
-    parts.append("[pause 1]")
-    parts.append(f"# Capitolo {italian_number(n)}. {spoken_numbers(title)}")
-    if fm["sfx_open"]:
-        parts.append(f"[sfx {fm['sfx_open']} under]")
-    pov = (meta.get("pov") or "").strip().lower()
-    tom_pov = pov.startswith("tom") if pov else not re.search(r"\bEmma\b", body[:1500])   # fallback: Emma nelle prime righe → POV Emma
-    parts.append(adapt_chapter_body(body, podcast_settings(config).get("sfx_map"), morse_pov=tom_pov))
+    for i, (part, title, body) in enumerate(bodies):
+        parts.append("[pause 1]" if i == 0 else "[pause 2]")
+        parts.append(f"# {spoken_numbers(part)}. {spoken_numbers(title)}")
+        parts.append(adapt_chapter_body(body))
     parts.append("[pause 1.5]")
     if fm["teaser"]:
         parts.append(fm["teaser"] if fm["teaser"].startswith("Nel prossimo episodio") else "Nel prossimo episodio, " + fm["teaser"])
+    if fm["closing"]:                       # ultimo episodio: congedo al posto del gancio
+        parts.append(fm["closing"])
     return head + "\n\n".join(parts) + "\n"
 
 def scripts(project_dir, names):
     scripts_dir = Path(project_dir) / "podcast" / "scripts"
     scripts_dir.mkdir(parents=True, exist_ok=True)
-    for chapter in chapter_files(project_dir, names):
-        target = scripts_dir / f"episode-{chapter.stem[:2]}.md"
+    for n, chapters in episode_plan(project_dir, names):
+        target = scripts_dir / f"episode-{n:02d}.md"
         old_meta = split_frontmatter(target.read_text(encoding="utf-8"))[0] if target.exists() else {}
-        new = render_script(project_dir, chapter, old_meta)
+        new = render_script(project_dir, n, chapters, old_meta)
         changed = (not target.exists()) or target.read_text(encoding="utf-8") != new
         target.write_text(new, encoding="utf-8")
         words = len(split_frontmatter(new)[1].split())
@@ -1476,14 +1413,15 @@ def scripts(project_dir, names):
 def check(project_dir):
     scripts_dir = Path(project_dir) / "podcast" / "scripts"
     drift = 0
-    for chapter in chapter_files(project_dir):
-        target = scripts_dir / f"episode-{chapter.stem[:2]}.md"
+    for n, chapters in episode_plan(project_dir):
+        target = scripts_dir / f"episode-{n:02d}.md"
+        names = ", ".join(c.name for c in chapters)
         if not target.exists():
-            print(f"❌ {target.name} manca (capitolo {chapter.name})"); drift += 1; continue
+            print(f"❌ {target.name} manca ({names})"); drift += 1; continue
         old_meta, old_body = split_frontmatter(target.read_text(encoding="utf-8"))
-        new_body = split_frontmatter(render_script(project_dir, chapter, old_meta))[1]
+        new_body = split_frontmatter(render_script(project_dir, n, chapters, old_meta))[1]
         if old_body != new_body:
-            print(f"⚠️  {target.name} non allineato a {chapter.name}: rilancia `scripts`"); drift += 1
+            print(f"⚠️  {target.name} non allineato a {names}: rilancia `scripts`"); drift += 1
         else:
             print(f"✅ {target.name} allineato")
     sys.exit(1 if drift else 0)
