@@ -8,7 +8,7 @@
   "podcast": {
     "engine": "elevenlabs",
     "model": "eleven_v4",
-    "voice": "irpmjMzI7WEB83hTpOZA",
+    "voice": "13Cuh3NuYvWOVQtLbRN8",
     "speaker": null,
     "stability": 0.5,
     "similarity_boost": 0.75,
