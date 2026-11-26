@@ -212,4 +212,4 @@ The theory is yours. The text is ours.
 ---
 
 *Based on the writing process of "The Universe at Minimum Energy"*
-*Author: [human author] in collaboration with Claude (Anthropic)*
+*Author: Simone Razzano in collaboration with Claude (Anthropic)*

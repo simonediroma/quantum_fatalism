@@ -1,6 +1,6 @@
 # Quantum Fatalism — The Universe at Minimum Energy
 
-> *A philosophical essay on the hypothesis that human destiny follows the principle of minimum energy. Built on thermodynamics, Riemannian geometry, and Friston's Free Energy Principle. Written in explicit collaboration between a human author and Claude (Anthropic). Available in Italian and English.*
+> *A philosophical essay on the hypothesis that human destiny follows the principle of minimum energy. Built on thermodynamics, Riemannian geometry, and Friston's Free Energy Principle. Written in explicit collaboration between Simone Razzano and Claude (Anthropic). Available in Italian and English.*
 
 ---
 
@@ -22,7 +22,7 @@ The geodesic tends toward the critical line without ever reaching it. Not a dest
 
 This essay did not begin from nothing, and it was not written alone.
 
-The human author brought the concepts: the core intuitions, the foundational metaphors, the theoretical framework, the responses to every criticism. Claude (Anthropic) brought the formalization: the argumentative structure, the integration with scientific literature, the identification of internal contradictions, the writing.
+Simone Razzano brought the concepts: the core intuitions, the foundational metaphors, the theoretical framework, the responses to every criticism. Claude (Anthropic) brought the formalization: the argumentative structure, the integration with scientific literature, the identification of internal contradictions, the writing.
 
 The process worked in phases. First, an extended dialogue in which Claude asked precise questions about the central concepts — one at a time, without proceeding until the answer was clear. Then, a series of increasingly refined versions of the essay, each one built on what the previous round of questions had clarified. Then, systematic demolition: Claude applied the most hostile critical thinking available, dismantling the theory on six fronts — unfalsifiability, the system as secular god, conformism disguised as physics, epiphanies indistinguishable from impulses, Friston's internal critique, classism. Each demolition produced an integration. The theory was strengthened through its weaknesses, not its strengths.
 
@@ -49,8 +49,12 @@ The full account of that process is in [`ships_log.md`](ships_log.md). The metho
 
 ## Attribution
 
-Concepts and theoretical framework: Simone Alfredo Razzano
+Concepts and theoretical framework: Simone Razzano
 Writing, formalization, and argumentative development: produced in collaboration with Claude (Anthropic)
+
+## License
+
+© Simone Razzano. The essay, the writing logs and all exported versions (PDF, EPUB, podcast) are licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). The method guide (`CLAUDE.md`) and the `skills/` folder are licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). No commercial use without a written agreement with the author. Details in [`LICENSE`](LICENSE).
 
 ---
 

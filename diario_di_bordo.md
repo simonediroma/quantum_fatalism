@@ -7,7 +7,7 @@
 
 ### Premessa sull'attribuzione
 
-Questo saggio è il prodotto di una collaborazione esplicita tra un autore umano e Claude, un modello di linguaggio sviluppato da Anthropic. I concetti, il framework teorico, le intuizioni originali, le metafore fondamentali e le risposte alle critiche appartengono all'autore umano. La scrittura, la formalizzazione argomentativa, la struttura dei capitoli, l'integrazione con la letteratura scientifica e filosofica sono state prodotte da Claude nel corso di una conversazione estesa.
+Questo saggio è il prodotto di una collaborazione esplicita tra Simone Razzano e Claude, un modello di linguaggio sviluppato da Anthropic. I concetti, il framework teorico, le intuizioni originali, le metafore fondamentali e le risposte alle critiche appartengono all'autore, Simone Razzano. La scrittura, la formalizzazione argomentativa, la struttura dei capitoli, l'integrazione con la letteratura scientifica e filosofica sono state prodotte da Claude nel corso di una conversazione estesa.
 
 Questo documento racconta quel processo.
 
@@ -118,5 +118,5 @@ Le versioni intermedie hanno valore. Ogni versione ha catturato uno stato della 
 ---
 
 *Diario di bordo de "L'universo a minima energia"*
-*Processo di scrittura: conversazione estesa tra autore umano e Claude (Anthropic)*
+*Processo di scrittura: conversazione estesa tra Simone Razzano e Claude (Anthropic)*
 *Durata del processo: sessione unica estesa*

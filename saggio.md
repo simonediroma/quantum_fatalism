@@ -378,5 +378,6 @@ Questa lettura va però presa per quello che è. Il formalismo descrive il compo
 ---
 
 *L'universo a minima energia — Teoria e metafisica del fatalismo quantico*
-*Concetti e framework teorico: autore umano*
+*Concetti e framework teorico: Simone Razzano*
 *Scrittura, formalizzazione e sviluppo argomentativo: prodotto in collaborazione con Claude (Anthropic)*
+*© Simone Razzano — Licenza CC BY-NC-ND 4.0, nessun uso commerciale. Vedi LICENSE.*
