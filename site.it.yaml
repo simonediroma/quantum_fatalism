@@ -32,4 +32,5 @@ graph:
   start: [free-energy-principle, geodetica, stato-peculiare, epifania, campo, metrica-di-fisher]
   search_placeholder: "Cerca: geodetica, Friston, surprisal…"
 switch: {href: "../", label: "English"}
+analytics: {cloudflare_token: "e697014a2a654ba188ca092a48b41c47"}
 output: docs/it

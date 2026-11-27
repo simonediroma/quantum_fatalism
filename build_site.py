@@ -7,7 +7,8 @@
 Sezioni: apertura (copertina, occhiello, titolo, frase), il libro con i download, idee chiave,
 podcast (episodi + feed, se la pagina ha `podcast`), grafo (schede da graph/cards, se la pagina ha `graph`).
 Tutto il contenuto è nell'HTML; il JavaScript serve solo a disegnare il grafo e a navigare le schede.
-Nessuna risorsa esterna: niente font, script o tracker da altri siti.
+Nessuna risorsa esterna (font, script), salvo Cloudflare Web Analytics se `analytics.cloudflare_token`
+è impostato nel site*.yaml: lo script di Cloudflare non usa cookie.
 """
 import html
 import json
@@ -307,6 +308,9 @@ def build_page(cfg_path, check=False):
     alt_link = f'<link rel="alternate" hreflang="{"it" if alt and alt["label"] == "Italiano" else "en"}" href="{e(alt["href"])}">' if alt else ""
     feed_link = '<link rel="alternate" type="application/rss+xml" href="feed.xml">' if eps else ""
     graph_html = section_graph(cfg, all_cards, L, lang)
+    token = (cfg.get("analytics") or {}).get("cloudflare_token")
+    analytics = ("<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' "
+                 f"data-cf-beacon='{{\"token\": \"{e(token)}\"}}'></script><!-- End Cloudflare Web Analytics -->") if token else ""
     page = f"""<!doctype html>
 <html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(cfg['title'])} — {e(cfg.get('author', ''))}</title>
@@ -321,7 +325,7 @@ def build_page(cfg_path, check=False):
 {section_podcast(cfg, eps, L)}
 {graph_html}
 <footer>© {e(cfg.get('author', ''))} · {e(L['license'])} CC BY-NC-ND 4.0 · <a href="https://github.com/simonediroma/quantum_fatalism">GitHub</a></footer>
-</main>{f'<script>{JS}</script>' if graph_html else ''}</body></html>
+</main>{f'<script>{JS}</script>' if graph_html else ''}{analytics}</body></html>
 """
     (out / "index.html").write_text(page, encoding="utf-8")
     size = sum(f.stat().st_size for f in out.rglob("*") if f.is_file())
