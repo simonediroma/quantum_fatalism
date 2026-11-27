@@ -1,0 +1,68 @@
+{
+  "title": "L'universo a minima energia",
+  "subtitle": "Teoria e metafisica del fatalismo quantico",
+  "author": {
+    "name": "Simone Razzano"
+  },
+  "language": "it",
+  "preset": "essay",
+  "license": "CC BY-NC-ND 4.0",
+  "podcast": {
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "voice": "13Cuh3NuYvWOVQtLbRN8",
+    "speaker": null,
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "speed": 1.0,
+    "sentence_pause": 0.35,
+    "paragraph_pause": 0.9,
+    "voices": {},
+    "intro_music": null,
+    "outro_music": null,
+    "intro_overlap": 1.5,
+    "bitrate": "96k",
+    "base_url": "https://quantumfatalism.com/it/episodes",
+    "feed_url": "https://quantumfatalism.com/it/feed.xml",
+    "link": "https://quantumfatalism.com/it/",
+    "cover_url": "https://quantumfatalism.com/cover.jpg",
+    "description": "La luce sceglie sempre la strada più economica, una bolla di sapone trova la sua sfera senza cercarla. E se anche il destino umano seguisse la linea di minore resistenza? Un saggio filosofico letto ad alta voce, un capitolo per puntata: fisica dei minimi, geometria di Riemann e il Free Energy Principle di Friston per capire quando agire e quando il sistema è pronto a cambiare.",
+    "owner_name": "Simone Razzano",
+    "owner_email": "simone.razzano@gmail.com",
+    "category": "Society & Culture",
+    "subcategory": "Philosophy",
+    "explicit": false,
+    "type": "serial",
+    "episodes": [
+      [
+        1,
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        9,
+        10
+      ]
+    ]
+  },
+  "site": {
+    "domain": "quantumfatalism.com",
+    "main_language": "en",
+    "it_path": "/it/",
+    "domain_it": "fatalismoquantico.it",
+    "domain_it_redirect": "https://quantumfatalism.com/it/"
+  }
+}

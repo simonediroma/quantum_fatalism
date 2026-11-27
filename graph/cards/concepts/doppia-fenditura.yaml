@@ -1,0 +1,10 @@
+id: "doppia-fenditura"
+name: "Doppia fenditura come modello della scelta"
+summary: "Tre proprietà della scelta: combinazione non additiva, costo della domanda 'quale via', osservatore interno."
+traits:
+  - {text: "L'esperimento mostra tre cose", source: "c3:10", quote: "l'esperimento della doppia fenditura, mostra tre cose"}
+  - {text: "La domanda stessa distrugge la combinazione", source: "c3:10", quote: "la domanda stessa distrugge la combinazione"}
+  - {text: "L'osservatore è interno e la sua osservazione modifica il sistema", source: "c3:12", quote: "l'osservatore è interno al sistema"}
+  - {text: "Il quadro classico copre due proprietà su tre; la terza richiede un'estensione", source: "c10:20", quote: "Il quadro appena descritto ne copre due"}
+relations:
+  - {to: "decoerenza", type: "esteso da", source: "c10:20", quote: "La terza, la combinazione non additiva delle possibilità, richiede un'estensione"}

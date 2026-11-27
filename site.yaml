@@ -1,0 +1,29 @@
+# Pagina principale (inglese): quantumfatalism.com → docs/index.html
+# Dopo una modifica: python3 build_site.py
+lang: en
+title: "The Universe at Minimum Energy"
+subtitle: "Theory and Metaphysics of Quantum Fatalism"
+author: "Simone Razzano"
+kicker: "A philosophical essay"
+tagline: "Light always takes the cheapest path. What if destiny, too, follows the line of least resistance?"
+book:
+  title: "The essay"
+  paragraphs:
+    - "Light always takes the path that requires the least time. A soap bubble finds its sphere without looking for it. Quantum Fatalism starts here and asks a question: what if human destiny, too, followed the line of least resistance of the system we are immersed in?"
+    - "It is not a theory of resignation. It is a theory of timing: where to invest effort and how to recognize when the system is ready to change. The physics of minima, Riemannian geometry and Friston's Free Energy Principle become the tools for reading epiphanies, relationships and choices."
+    - "A descriptive essay, not a prescriptive one: it does not tell you how to live, it describes what it costs."
+  downloads:
+    - {file: "manuscript/the-universe-at-minimum-energy.pdf", label: "Download the essay (PDF)"}
+    - {file: "manuscript/the-universe-at-minimum-energy.epub", label: "Download the essay (EPUB)"}
+  note: "Final edition · CC BY-NC-ND 4.0 license"
+featured_title: "Key ideas"
+featured:
+  - {name: "Geodesic", role: "The path", text: "The line of least resistance available now, in this system, with this internal configuration. Not a written destiny: a direction recalculated at every instant."}
+  - {name: "Peculiar state", role: "Who chooses", text: "The structure of one's internal model, built not by how much one has lived but by the quality of attention with which one has lived it."}
+  - {name: "Epiphanies", role: "Signals", text: "Thoughts that arrive already formed and cost nothing. The problem is not generating them, but what reasoning builds on top of them."}
+  - {name: "The shared field", role: "Relationships", text: "When two paths meet, a single thing happens at two scales: the encounter that pushes the field, and the trace it leaves in its geometry."}
+  - {name: "Information geometry", role: "The framework", text: "Updating a model at minimum cost is following a geodesic: Friston's free energy, Amari's natural gradient and latent space in a single framework."}
+podcast_notice: {title: "The podcast", text: "The essay read aloud, one chapter per episode. Six episodes, in Italian.", link: "it/#podcast", label: "Listen in Italian"}
+switch: {href: "it/", label: "Italiano"}
+cname: "quantumfatalism.com"
+output: docs

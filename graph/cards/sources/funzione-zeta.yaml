@@ -1,0 +1,7 @@
+id: "funzione-zeta"
+name: "Funzione zeta e ipotesi di Riemann"
+summary: "I numeri primi, apparentemente caotici, governati dagli zeri di una funzione; l'ipotesi li pone su una linea critica."
+traits:
+  - {text: "Ordine nascosto sotto il caos apparente dei numeri primi", source: "c6:31", quote: "I numeri primi appaiono sulla retta numerica in modo apparentemente caotico"}
+relations:
+  - {to: "riemann", type: "di", source: "c6:31", quote: "Riemann lasciò in eredità alla matematica"}

@@ -1,0 +1,10 @@
+id: "imprinting"
+name: "Imprinting"
+summary: "I prior iniziali dello stato peculiare, formati per mimesi nelle fasi precoci."
+traits:
+  - {text: "Definito: il sistema nascente replica gli schemi energetici del campo", source: "c3:30", quote: "Questo è l'**imprinting**."}
+  - {text: "Non è determinismo", source: "c3:32", quote: "L'imprinting non è determinismo."}
+  - {text: "I prior più rigidi e più riconoscibili", source: "c3:34", quote: "sono i più rigidi ma anche i più riconoscibili"}
+  - {text: "Funziona come i pesi profondi che resistono all'aggiornamento", source: "c10:12", quote: "svolge la funzione dei pesi profondi che resistono all'aggiornamento"}
+relations:
+  - {to: "autosimilarita", type: "segue", source: "c3:34", quote: "Seguono la stessa logica autosimilare dei frattali"}

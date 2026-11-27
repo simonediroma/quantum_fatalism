@@ -1,0 +1,5 @@
+id: "galileo"
+name: "Galileo Galilei"
+summary: "Autore dell'epigrafe del Capitolo V."
+traits:
+  - {text: "Citato nel testo", source: "c6:9", quote: "— Galileo Galilei"}

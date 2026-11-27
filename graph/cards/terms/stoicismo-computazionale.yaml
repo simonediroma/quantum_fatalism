@@ -1,0 +1,7 @@
+id: "stoicismo-computazionale"
+name: "Stoicismo computazionale"
+summary: "La precisione di chi conosce il sistema e sa dove e quando intervenire."
+traits:
+  - {text: "Non rassegnazione, ma precisione di chi conosce il sistema", source: "c7:13", quote: "una forma di **stoicismo computazionale**"}
+relations:
+  - {to: "marco-aurelio", type: "evoca", source: "c7:8", quote: "Non essere schiavo delle tue passioni, ma il loro signore."}

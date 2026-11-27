@@ -1,0 +1,5 @@
+id: "mandelbrot"
+name: "Benoit Mandelbrot"
+summary: "Matematico dei frattali."
+traits:
+  - {text: "Citato nel testo", source: "c6:21", quote: "Benoit Mandelbrot scoprì"}

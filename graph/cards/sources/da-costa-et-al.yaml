@@ -1,0 +1,7 @@
+id: "da-costa-et-al"
+name: "Da Costa, Parr, Sengupta e Friston"
+summary: "Hanno mostrato che le dinamiche dell'inferenza attiva approssimano il gradiente naturale."
+traits:
+  - {text: "Citati per il legame inferenza attiva – gradiente naturale", source: "c10:14", quote: "come hanno mostrato Da Costa, Parr, Sengupta e Friston"}
+not_said:
+  - {text: "Il testo non dà titolo né anno del lavoro."}

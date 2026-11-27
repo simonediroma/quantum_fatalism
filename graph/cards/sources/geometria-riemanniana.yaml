@@ -1,0 +1,8 @@
+id: "geometria-riemanniana"
+name: "Geometria riemanniana"
+summary: "Lo spazio come varietà capace di curvarsi, in cui gli oggetti seguono geodetiche."
+traits:
+  - {text: "Lo spazio non è una scatola vuota ma una varietà che si curva", source: "c6:13", quote: "ma una varietà capace di curvarsi"}
+  - {text: "Senza di essa non si concepirebbe il destino come geodetica", source: "c8:16", quote: "senza la sua geometria dello spazio curvo"}
+relations:
+  - {to: "riemann", type: "di", source: "c6:13", quote: "Bernhard Riemann dimostrò nel XIX secolo"}

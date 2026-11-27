@@ -1,0 +1,8 @@
+id: "impulso"
+name: "Impulso"
+summary: "Segnale che emerge da uno stato peculiare compromesso, con dominanza strutturale."
+traits:
+  - {text: "Emerge da uno stato peculiare compromesso", source: "c4:30", quote: "Un impulso emerge da uno stato peculiare compromesso"}
+  - {text: "La distinzione è nella struttura del segnale, non nell'esito", source: "c4:30", quote: "che non risiede nell'esito ma nella struttura del segnale"}
+relations:
+  - {to: "insieme-attrattore", type: "corrisponde a", source: "c4:32", quote: "un insieme attrattore patologico"}

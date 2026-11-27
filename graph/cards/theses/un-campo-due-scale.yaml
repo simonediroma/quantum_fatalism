@@ -1,0 +1,13 @@
+id: "un-campo-due-scale"
+name: "Le relazioni sono un solo campo a due scale"
+summary: "Quando due geodetiche si incontrano accade una cosa sola: perturbazione nell'istante, deformazione permanente nel tempo."
+traits:
+  - {text: "Accade una cosa sola, osservabile a due scale", source: "c5:8", quote: "accade una cosa sola, osservabile a due scale"}
+  - {text: "Non sono due modelli: sono lo stesso campo prima e dopo essere toccato", source: "c5:8", quote: "Non sono due modelli."}
+  - {text: "Il saggio aveva usato onde e campo; l'Appendice III mostra che il secondo contiene il primo", source: "c5:8", quote: "il secondo contiene il primo"}
+notes:
+  - {text: "Sostituisce i precedenti 'modello delle onde' e 'modello del campo', citati nel testo come linguaggi abbandonati."}
+relations:
+  - {to: "perturbazione", type: "comprende", source: "c5:8", quote: "è la **perturbazione**"}
+  - {to: "deformazione-permanente", type: "comprende", source: "c5:8", quote: "è la **deformazione permanente**"}
+  - {to: "campo", type: "usa", source: "c5:8", quote: "Sono lo stesso campo"}

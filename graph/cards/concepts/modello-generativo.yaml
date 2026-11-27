@@ -1,0 +1,5 @@
+id: "modello-generativo"
+name: "Modello generativo"
+summary: "Il modello interno che ogni individuo porta in ogni sistema (Friston)."
+traits:
+  - {text: "Ogni individuo porta un modello generativo preesistente", source: "c9:14", quote: "ogni individuo porta in ogni sistema un modello generativo preesistente"}

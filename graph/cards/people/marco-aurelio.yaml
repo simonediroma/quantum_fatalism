@@ -1,0 +1,5 @@
+id: "marco-aurelio"
+name: "Marco Aurelio"
+summary: "Autore dell'epigrafe della Conclusione."
+traits:
+  - {text: "Citato nel testo", source: "c7:9", quote: "— Marco Aurelio"}

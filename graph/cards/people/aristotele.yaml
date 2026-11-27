@@ -1,0 +1,5 @@
+id: "aristotele"
+name: "Aristotele"
+summary: "Autore dell'epigrafe del saggio."
+traits:
+  - {text: "Citato nel testo", source: "c1:9", quote: "— Aristotele"}

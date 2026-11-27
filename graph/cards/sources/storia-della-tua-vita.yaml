@@ -1,0 +1,9 @@
+id: "storia-della-tua-vita"
+name: "Storia della tua vita / Arrival"
+aliases: ["Arrival"]
+summary: "Il racconto di Ted Chiang e il film tratto: vedere l'intera geodetica produce paralisi o ossessione."
+traits:
+  - {text: "Usa il principio di Fermat per una percezione teleologica del tempo", source: "c8:26", quote: "Chiang utilizza esplicitamente il principio di Fermat"}
+  - {text: "Il film Arrival, tratto dal racconto: la visione completa della geodetica non produce saggezza", source: "c4:40", quote: "Il film *Arrival*, tratto dal racconto di Ted Chiang *Storia della tua vita*"}
+relations:
+  - {to: "ted-chiang", type: "di", source: "c8:26", quote: "**Ted Chiang, *Storia della tua vita***"}

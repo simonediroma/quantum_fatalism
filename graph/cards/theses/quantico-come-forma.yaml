@@ -1,0 +1,11 @@
+id: "quantico-come-forma"
+name: "\"Quantico\" indica una forma, non un substrato"
+summary: "La doppia fenditura è modello della struttura della scelta; il saggio non sostiene che la coscienza sia fisicamente quantistica."
+traits:
+  - {text: "Non sostiene che la coscienza sia un fenomeno fisicamente quantistico", source: "c3:12", quote: "Non sostiene che la coscienza sia un fenomeno fisicamente quantistico"}
+  - {text: "Il termine del titolo indica questa forma, non un substrato", source: "c3:12", quote: "Il termine \"quantico\" del titolo indica questa forma. Non indica un substrato."}
+  - {text: "Ribadito: il formalismo descrive il comportamento, non afferma nulla sul substrato", source: "c10:22", quote: "Il formalismo descrive il comportamento; non afferma nulla sul substrato."}
+  - {text: "In questo quadro 'quantico' indica il formalismo, non la natura fisica del campo", source: "c10:24", quote: "non la natura fisica del campo"}
+relations:
+  - {to: "doppia-fenditura", type: "usa", source: "c3:12", quote: "Il fatalismo quantico usa questa struttura come **modello della scelta**"}
+  - {to: "cognizione-quantistica", type: "supportata da", source: "c8:20", quote: "È il senso in cui questo saggio usa il termine \"quantico\"."}

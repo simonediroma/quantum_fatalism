@@ -1,0 +1,11 @@
+id: "scelta-del-momento"
+name: "Teoria della scelta del momento"
+summary: "Non rassegnazione: imparare quando agire e riconoscere quando il sistema è permeabile al cambiamento."
+traits:
+  - {text: "Imparare quando agire, dove investire la fatica, come riconoscere i momenti di permeabilità", source: "c1:17", quote: "È una teoria della scelta del momento"}
+  - {text: "Immagine del fiume: si devia quando è secco, non in piena", source: "c1:17", quote: "deviare il flusso di un fiume quando è secco"}
+  - {text: "La domanda corretta è se il sistema è permeabile al cambiamento, non se si ha la forza", source: "c2:36", quote: "La domanda corretta non è se si ha la forza di cambiare qualcosa"}
+  - {text: "Il compito è riconoscere il momento di permeabilità e agire con precisione", source: "c7:19", quote: "Il compito non è forzare quella tendenza né opporsi ad essa"}
+relations:
+  - {to: "permeabilita", type: "dipende da", source: "c1:17", quote: "come riconoscere i momenti in cui il sistema è permeabile al cambiamento"}
+  - {to: "fatica-produttiva", type: "si attua con", source: "c2:36", quote: "La domanda corretta non è se si ha la forza di cambiare qualcosa"}

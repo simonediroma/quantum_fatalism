@@ -1,0 +1,5 @@
+id: "friston"
+name: "Karl Friston"
+summary: "Neuroscienziato, autore del Free Energy Principle."
+traits:
+  - {text: "Citato nel testo", source: "c1:25", quote: "del neuroscienziato Karl Friston"}

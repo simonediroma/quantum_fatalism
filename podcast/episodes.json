@@ -1,0 +1,38 @@
+{
+  "episode-01": {
+    "length": 9270844,
+    "md5": "a97c3f2d3596",
+    "pub": 1795775629,
+    "seconds": 772
+  },
+  "episode-02": {
+    "length": 8296528,
+    "md5": "0e3aa6c39022",
+    "pub": 1795779229,
+    "seconds": 691
+  },
+  "episode-03": {
+    "length": 6841363,
+    "md5": "d1fbbfc24822",
+    "pub": 1795782829,
+    "seconds": 570
+  },
+  "episode-04": {
+    "length": 6591229,
+    "md5": "092c1ba0126a",
+    "pub": 1795786429,
+    "seconds": 549
+  },
+  "episode-05": {
+    "length": 6365923,
+    "md5": "a1d866f93bb5",
+    "pub": 1795790029,
+    "seconds": 530
+  },
+  "episode-06": {
+    "length": 9957065,
+    "md5": "681fc6713c1a",
+    "pub": 1795793629,
+    "seconds": 829
+  }
+}

@@ -1,0 +1,9 @@
+id: "saturazione-del-campo"
+name: "Saturazione del campo"
+summary: "La densità informativa cresce fino a una soglia critica e il campo si scarica sui nodi compatibili."
+traits:
+  - {text: "Soglia critica e scarica sui nodi strutturalmente compatibili", source: "c4:48", quote: "La densità informativa nel campo aumenta progressivamente fino a una soglia critica."}
+  - {text: "Analogia della rete ethernet: simultaneità come proprietà geometrica", source: "c4:46", quote: "In una rete ethernet costruita secondo una specifica topologia"}
+  - {text: "È una deformazione progressiva della metrica fino a un cambio di natura della regione", source: "c10:18", quote: "una collina diventa una valle"}
+relations:
+  - {to: "transizione-di-fase-collettiva", type: "corrisponde a", source: "c4:52", quote: "Friston descrive questo come una transizione di fase collettiva"}

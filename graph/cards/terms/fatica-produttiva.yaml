@@ -1,0 +1,10 @@
+id: "fatica-produttiva"
+name: "Fatica produttiva"
+summary: "Fatica che modifica la curvatura dello spazio cognitivo in cui la geodetica viene calcolata."
+traits:
+  - {text: "Agisce sulla curvatura, non sulla geodetica: spostare il letto del fiume", source: "c2:34", quote: "La fatica produttiva non agisce direttamente sulla geodetica."}
+  - {text: "Anche chi porta da solo un'epifania contribuisce alla saturazione", source: "c2:38", quote: "La fatica è produttiva perché contribuisce alla saturazione."}
+  - {text: "Nel modello computazionale modifica la metrica", source: "c10:16", quote: "La fatica produttiva della sezione 1.3 modifica la metrica"}
+relations:
+  - {to: "fatica-sterile", type: "si distingue da", source: "c2:32", quote: "la differenza tra fatica produttiva e fatica sterile"}
+  - {to: "inferenza-attiva", type: "corrisponde a", source: "c9:12", quote: "È la distinzione tra fatica produttiva e fatica sterile espressa in termini neurobiologici"}

@@ -1,0 +1,10 @@
+id: "carico-cognitivo"
+name: "Carico cognitivo complessivo"
+summary: "Il costo cronico: la somma di tutti i processi irrisolti attivi nel sistema."
+traits:
+  - {text: "Definito come costo cronico, include il surprisal e il mantenimento di modelli difensivi", source: "c2:26", quote: "Il **carico cognitivo complessivo** è il costo cronico"}
+  - {text: "Si manifesta come ansia cronica quando è insostenibile", source: "c3:56", quote: "L'**ansia cronica** è la manifestazione del carico cognitivo complessivo insostenibile"}
+  - {text: "Una tensione mantenuta tra due nodi è carico cronico, non minimo di energia", source: "c5:16", quote: "È carico cognitivo cronico nel senso della sezione 1.2"}
+  - {text: "Il costo di mantenere i registri della razionalizzazione", source: "c10:20", quote: "il costo di mantenere i registri è il carico cognitivo cronico"}
+relations:
+  - {to: "surprisal", type: "include", source: "c2:26", quote: "Include il surprisal acuto"}

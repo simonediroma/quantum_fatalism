@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>L'universo a minima energia</title>
+    <description>La luce sceglie sempre la strada più economica, una bolla di sapone trova la sua sfera senza cercarla. E se anche il destino umano seguisse la linea di minore resistenza? Un saggio filosofico letto ad alta voce, un capitolo per puntata: fisica dei minimi, geometria di Riemann e il Free Energy Principle di Friston per capire quando agire e quando il sistema è pronto a cambiare.</description>
+    <language>it</language>
+    <link>https://quantumfatalism.com/it/</link>
+    <atom:link href="https://quantumfatalism.com/it/feed.xml" rel="self" type="application/rss+xml"/>
+    <itunes:author>Simone Razzano</itunes:author>
+    <itunes:owner><itunes:name>Simone Razzano</itunes:name><itunes:email>simone.razzano@gmail.com</itunes:email></itunes:owner>
+    <itunes:image href="https://quantumfatalism.com/cover.jpg"/>
+    <itunes:category text="Society &amp; Culture"><itunes:category text="Philosophy"/></itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>serial</itunes:type>
+    <item>
+      <title>Episodio 1 — Introduzione. La luce, la sfera e il costo del pensiero · Capitolo I. La fisica dell'equilibrio: il principio di minimo carico cognitivo</title>
+      <itunes:title>Episodio 1 — Introduzione. La luce, la sfera e il costo del pensiero · Capitolo I. La fisica dell'equilibrio: il principio di minimo carico cognitivo</itunes:title>
+      <description>Perché la luce sceglie la strada più economica, e cosa c'entra con il destino. Il principio di minimo carico cognitivo, il surprisal e la differenza tra fatica produttiva e fatica sterile.</description>
+      <enclosure url="https://quantumfatalism.com/it/episodes/episode-01.mp3" length="9270844" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-01</guid>
+      <pubDate>Fri, 27 Nov 2026 10:33:49 +0000</pubDate>
+      <itunes:duration>12:52</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Episodio 2 — Capitolo II. L'osservatore e la realtà: stato peculiare, stato contestuale e scelta</title>
+      <itunes:title>Episodio 2 — Capitolo II. L'osservatore e la realtà: stato peculiare, stato contestuale e scelta</itunes:title>
+      <description>La doppia fenditura come forma della scelta. Lo stato peculiare, la qualità dell'attenzione, l'imprinting e perché la permeabilità ha un ottimo e non un massimo.</description>
+      <enclosure url="https://quantumfatalism.com/it/episodes/episode-02.mp3" length="8296528" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-02</guid>
+      <pubDate>Fri, 27 Nov 2026 11:33:49 +0000</pubDate>
+      <itunes:duration>11:31</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Episodio 3 — Capitolo III. Le epifanie: segnali del campo</title>
+      <itunes:title>Episodio 3 — Capitolo III. Le epifanie: segnali del campo</itunes:title>
+      <description>Cosa sono le epifanie, come si distinguono dagli impulsi, e perché il problema non è generarle ma quello che succede dopo.</description>
+      <enclosure url="https://quantumfatalism.com/it/episodes/episode-03.mp3" length="6841363" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-03</guid>
+      <pubDate>Fri, 27 Nov 2026 12:33:49 +0000</pubDate>
+      <itunes:duration>9:30</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Episodio 4 — Capitolo IV. Il campo condiviso: la fisica delle relazioni</title>
+      <itunes:title>Episodio 4 — Capitolo IV. Il campo condiviso: la fisica delle relazioni</itunes:title>
+      <description>Le relazioni come un solo campo osservato a due scale: l'incontro e la traccia che lascia. La compatibilità, l'asimmetria e la dissoluzione consapevole.</description>
+      <enclosure url="https://quantumfatalism.com/it/episodes/episode-04.mp3" length="6591229" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-04</guid>
+      <pubDate>Fri, 27 Nov 2026 13:33:49 +0000</pubDate>
+      <itunes:duration>9:09</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Episodio 5 — Capitolo V. La geometria del destino: Riemann, Mandelbrot e la linea critica · Conclusione. L'arte di scorrere: stoicismo computazionale</title>
+      <itunes:title>Episodio 5 — Capitolo V. La geometria del destino: Riemann, Mandelbrot e la linea critica · Conclusione. L'arte di scorrere: stoicismo computazionale</itunes:title>
+      <description>La geometria del destino tra Riemann e Mandelbrot, la linea critica, e la conclusione: lo stoicismo computazionale come arte di scorrere.</description>
+      <enclosure url="https://quantumfatalism.com/it/episodes/episode-05.mp3" length="6365923" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-05</guid>
+      <pubDate>Fri, 27 Nov 2026 14:33:49 +0000</pubDate>
+      <itunes:duration>8:50</itunes:duration>
+      <itunes:episode>5</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Episodio 6 — Appendice II. Il Free Energy Principle di Friston: convergenze con il fatalismo quantico · Appendice III. Lo spazio latente e la geometria dell'informazione: un solo quadro</title>
+      <itunes:title>Episodio 6 — Appendice II. Il Free Energy Principle di Friston: convergenze con il fatalismo quantico · Appendice III. Lo spazio latente e la geometria dell'informazione: un solo quadro</itunes:title>
+      <description>Le appendici: le convergenze con il Free Energy Principle di Friston e lo spazio latente come modello del fatalismo quantico, tra geometria dell'informazione e decoerenza.</description>
+      <enclosure url="https://quantumfatalism.com/it/episodes/episode-06.mp3" length="9957065" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-06</guid>
+      <pubDate>Fri, 27 Nov 2026 15:33:49 +0000</pubDate>
+      <itunes:duration>13:49</itunes:duration>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>

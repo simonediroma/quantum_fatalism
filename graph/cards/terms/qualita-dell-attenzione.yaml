@@ -1,0 +1,12 @@
+id: "qualita-dell-attenzione"
+name: "Qualità dell'attenzione"
+summary: "Il concetto più centrale: la capacità di pesare correttamente ogni segnale."
+traits:
+  - {text: "Il concetto più centrale del framework", source: "c3:18", quote: "La qualità dell'attenzione è il concetto più centrale del framework"}
+  - {text: "Alta: sistema permeabile; bassa: sistema rigido", source: "c3:20", quote: "Alta qualità dell'attenzione significa alta precisione dei segnali in entrata"}
+  - {text: "È la capacità di pesare correttamente ogni segnale", source: "c3:24", quote: "La qualità dell'attenzione è la capacità di pesare correttamente ogni segnale"}
+  - {text: "È il tasso con cui ciascun nodo lascia che un dato lo modifichi", source: "c10:12", quote: "è il tasso con cui ciascun nodo lascia che un dato lo modifichi"}
+notes:
+  - {text: "La definizione si sposta da 'alta precisione = permeabilità' (c3:20) a 'peso corretto con un ottimo' (c3:24): lo spostamento è voluto e dichiarato."}
+relations:
+  - {to: "precisione-delle-credenze", type: "corrisponde a", source: "c3:18", quote: "Friston la descrive attraverso il concetto di **precisione delle credenze**"}

@@ -1,0 +1,9 @@
+id: "dissoluzione-consapevole"
+name: "Dissoluzione consapevole"
+summary: "La fine di un sistema condiviso dopo un'epifania condivisa: una transizione di fase a basso costo."
+traits:
+  - {text: "Con epifania condivisa è transizione di fase a basso costo", source: "c5:36", quote: "è una transizione di fase a basso costo"}
+  - {text: "Non condivisa, genera entropia distribuita nel campo", source: "c5:38", quote: "Una dissoluzione non condivisa genera entropia."}
+  - {text: "Come Garbage Collection: libera risorse bloccate", source: "c5:40", quote: "è una funzione di **Garbage Collection**"}
+relations:
+  - {to: "simultaneita-geodetica", type: "dipende da", source: "c5:36", quote: "la simultaneità è geodetica, non temporale"}

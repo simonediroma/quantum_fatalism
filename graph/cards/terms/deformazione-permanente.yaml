@@ -1,0 +1,9 @@
+id: "deformazione-permanente"
+name: "Deformazione permanente"
+summary: "La scala del tempo: la traccia che l'incontro lascia nella geometria del campo."
+traits:
+  - {text: "Definita come traccia che non si riassorbe", source: "c5:8", quote: "è la **deformazione permanente**"}
+  - {text: "Ogni incontro significativo è un passo di addestramento del campo", source: "c5:22", quote: "Ogni incontro significativo è un passo di addestramento del campo"}
+  - {text: "Nella prima scala il campo viene spinto, nella seconda ha imparato", source: "c5:22", quote: "nella prima il campo viene spinto, nella seconda il campo ha imparato"}
+relations:
+  - {to: "apprendimento-continuo", type: "corrisponde a", source: "c5:22", quote: "Ogni incontro significativo è un passo di addestramento del campo"}

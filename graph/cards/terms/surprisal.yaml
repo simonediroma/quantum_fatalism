@@ -1,0 +1,10 @@
+id: "surprisal"
+name: "Surprisal"
+summary: "Il costo acuto: discrepanza tra modello generativo interno e dati sensoriali in un momento specifico."
+traits:
+  - {text: "Definito come costo acuto, segnale immediato che il modello deve aggiornarsi", source: "c2:24", quote: "Il **surprisal** è il costo acuto"}
+  - {text: "Termine di Friston per la discrepanza tra previsioni e dati sensoriali", source: "c2:18", quote: "che Friston chiama **surprisal**"}
+  - {text: "Si manifesta come ansia acuta", source: "c3:56", quote: "L'**ansia acuta** è la manifestazione del surprisal"}
+relations:
+  - {to: "carico-cognitivo", type: "si distingue da", source: "c2:22", quote: "Prima di procedere è necessario distinguere due concetti"}
+  - {to: "free-energy-principle", type: "proviene da", source: "c9:10", quote: "Friston chiama surprisal la misura della discrepanza"}

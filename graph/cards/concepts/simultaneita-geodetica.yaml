@@ -1,0 +1,6 @@
+id: "simultaneita-geodetica"
+name: "Simultaneità geodetica"
+summary: "La simultaneità è geodetica, non temporale: il campo si riorganizza per tutti, il ritardo è nella ricezione."
+traits:
+  - {text: "La simultaneità è geodetica, non temporale", source: "c5:36", quote: "la simultaneità è geodetica, non temporale"}
+  - {text: "La metrica si è già riorganizzata per tutti, il ritardo è nella ricezione", source: "c10:18", quote: "il ritardo è nella ricezione"}

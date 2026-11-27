@@ -1,0 +1,9 @@
+id: "metrica-di-fisher"
+name: "Metrica di Fisher"
+summary: "La metrica naturale dello spazio delle distribuzioni; la sua curvatura è calcolabile."
+traits:
+  - {text: "Metrica naturale delle distribuzioni di probabilità", source: "c10:14", quote: "possiede una metrica naturale, la metrica di Fisher"}
+  - {text: "La curvatura locale dell'energia libera è la metrica di Fisher", source: "c10:14", quote: "la curvatura locale di quella divergenza è la metrica di Fisher"}
+  - {text: "La metrica di Bures si riduce a Fisher quando le coerenze sono nulle", source: "c10:20", quote: "si riduce esattamente a quella di Fisher quando le coerenze sono nulle"}
+relations:
+  - {to: "amari", type: "cita", source: "c8:22", quote: "la metrica di Fisher"}

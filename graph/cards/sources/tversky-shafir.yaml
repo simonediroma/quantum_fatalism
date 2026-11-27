@@ -1,0 +1,7 @@
+id: "tversky-shafir"
+name: "Effetto disgiunzione (Tversky e Shafir)"
+summary: "L'evidenza empirica citata per la cognizione quantistica, oggi contestata."
+traits:
+  - {text: "Contestata su tre fronti: repliche miste, interpretazione, modelli classici", source: "c10:22", quote: "è oggi contestata su tre fronti"}
+not_said:
+  - {text: "Il testo non riporta i numeri dell'esperimento né le fonti delle critiche."}

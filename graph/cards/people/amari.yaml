@@ -1,0 +1,5 @@
+id: "amari"
+name: "Shun-ichi Amari"
+summary: "Fondatore della geometria dell'informazione e del gradiente naturale."
+traits:
+  - {text: "Citato nel testo", source: "c8:22", quote: "**Shun-ichi Amari e la geometria dell'informazione**"}

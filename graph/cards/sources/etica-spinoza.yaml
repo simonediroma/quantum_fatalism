@@ -1,0 +1,7 @@
+id: "etica-spinoza"
+name: "Etica (Spinoza)"
+summary: "La libertà come comprensione della necessità; Deus sive Natura come precursore del sistema."
+traits:
+  - {text: "La libertà non è libero arbitrio ma comprensione della necessità", source: "c8:14", quote: "**Baruch Spinoza, Etica**"}
+relations:
+  - {to: "spinoza", type: "di", source: "c8:14", quote: "**Baruch Spinoza, Etica**"}
