@@ -23,10 +23,10 @@
     "outro_music": null,
     "intro_overlap": 1.5,
     "bitrate": "96k",
-    "base_url": "https://fatalismoquantico.it/episodes",
-    "feed_url": "https://fatalismoquantico.it/feed.xml",
-    "link": "https://fatalismoquantico.it",
-    "cover_url": "https://fatalismoquantico.it/cover.jpg",
+    "base_url": "https://quantumfatalism.com/it/episodes",
+    "feed_url": "https://quantumfatalism.com/it/feed.xml",
+    "link": "https://quantumfatalism.com/it/",
+    "cover_url": "https://quantumfatalism.com/cover.jpg",
     "description": "La luce sceglie sempre la strada più economica, una bolla di sapone trova la sua sfera senza cercarla. E se anche il destino umano seguisse la linea di minore resistenza? Un saggio filosofico letto ad alta voce, un capitolo per puntata: fisica dei minimi, geometria di Riemann e il Free Energy Principle di Friston per capire quando agire e quando il sistema è pronto a cambiare.",
     "owner_name": "Simone Razzano",
     "owner_email": "simone.razzano@gmail.com",
@@ -59,8 +59,10 @@
     ]
   },
   "site": {
-    "domain": "fatalismoquantico.it",
-    "domain_en": "quantumfatalism.com",
-    "en_path": "/en/"
+    "domain": "quantumfatalism.com",
+    "main_language": "en",
+    "it_path": "/it/",
+    "domain_it": "fatalismoquantico.it",
+    "domain_it_redirect": "https://quantumfatalism.com/it/"
   }
 }
