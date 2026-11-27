@@ -456,9 +456,6 @@ def build(project_dir, names):
             "language": config.get("language", ""),
         })
         wav_path.unlink()
-        if (project_dir / "docs").is_dir():   # GitHub Pages hosts the MP3s next to the feed
-            (project_dir / "docs" / "episodes").mkdir(exist_ok=True)
-            shutil.copy2(mp3_path, project_dir / "docs" / "episodes" / mp3_path.name)
         minutes = audio.size / SAMPLE_RATE / 60
         print(f"✅ {mp3_path}  ({minutes:.1f} min)")
 
@@ -1002,25 +999,9 @@ def feed(project_dir):
 """
     out = project_dir / "podcast" / "feed.xml"
     out.write_text(xml, encoding="utf-8")
-    if (project_dir / "docs").is_dir():   # GitHub Pages copy + listening page
-        (project_dir / "docs" / "feed.xml").write_text(xml, encoding="utf-8")
-        episodes_html = "".join(
-            f'<li><h3>{escape(m.get("title", s.stem))}</h3><p>{escape(m.get("description", ""))}</p>'
-            f'<audio controls preload="none" src="{escape(f"{base}/{s.stem}.mp3")}"></audio></li>'
-            for s in scripts for m in [split_frontmatter(s.read_text(encoding="utf-8"))[0]])
-        page = f"""<!doctype html>
-<html lang="{escape(config.get('language', 'en'))}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{title} — Podcast</title>
-<link rel="alternate" type="application/rss+xml" title="Feed RSS" href="feed.xml">
-<style>body{{font-family:system-ui,sans-serif;max-width:720px;margin:2rem auto;padding:0 16px;background:#0e1116;color:#e6e6e6}}a{{color:#6ee7a0}}img{{width:100%;max-width:360px;border-radius:8px}}ul{{list-style:none;padding:0}}li{{margin:1.5rem 0}}audio{{width:100%}}h3{{margin:.2rem 0}}p{{color:#aab}}</style></head>
-<body><img src="cover.jpg" alt="Copertina"><h1>{title}</h1><p>{description}</p>
-<p>{author} · <a href="feed.xml">Feed RSS</a></p><ul>{episodes_html}</ul></body></html>
-"""
-        sito = project_dir / "build_sito.py"
-        if sito.exists():   # pagina unica del sito (libro, personaggi, podcast, grafo)
-            subprocess.run([sys.executable, str(sito)], check=True)
-        else:
-            (project_dir / "docs" / "index.html").write_text(page, encoding="utf-8")
+    site = project_dir / "build_site.py"
+    if site.exists():   # il sito copia feed ed episodi nella sezione italiana (docs/it/)
+        subprocess.run([sys.executable, str(site)], check=True)
     print(f"✅ {out} ({len(items)} episodes)")
 
 

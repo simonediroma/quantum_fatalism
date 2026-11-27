@@ -1,0 +1,35 @@
+# Pagina italiana: quantumfatalism.com/it/ (fatalismoquantico.it reindirizza qui) → docs/it/index.html
+# Dopo una modifica: python3 build_site.py
+lang: it
+title: "L'universo a minima energia"
+subtitle: "Teoria e metafisica del fatalismo quantico"
+author: "Simone Razzano"
+kicker: "Un saggio filosofico, anche da ascoltare"
+tagline: "La luce sceglie sempre la strada più economica. E se anche il destino seguisse la linea di minore resistenza?"
+book:
+  title: "Il saggio"
+  paragraphs:
+    - "La luce sceglie sempre il percorso che richiede meno tempo. Una bolla di sapone trova la sua sfera senza cercarla. Il fatalismo quantico parte da qui e fa una domanda: se anche il destino umano seguisse la linea di minore resistenza del sistema in cui siamo immersi?"
+    - "Non è una teoria della rassegnazione. È una teoria della scelta del momento: dove investire la fatica e come riconoscere quando il sistema è pronto a cambiare. Fisica dei minimi, geometria di Riemann e il Free Energy Principle di Friston diventano gli strumenti per leggere epifanie, relazioni e scelte."
+    - "Un saggio descrittivo, non prescrittivo: non dice come vivere, descrive quanto costa."
+  downloads:
+    - {file: "manuscript/l-universo-a-minima-energia.pdf", label: "Scarica il saggio (PDF)"}
+    - {file: "manuscript/l-universo-a-minima-energia.epub", label: "Scarica il saggio (EPUB)"}
+  note: "Edizione definitiva · licenza CC BY-NC-ND 4.0"
+featured_title: "Idee chiave"
+featured:
+  - {id: geodetica, role: "Il percorso", text: "La linea di minore resistenza disponibile ora, in questo sistema, con questa configurazione interna. Non un destino scritto: una direzione ricalcolata a ogni istante."}
+  - {id: stato-peculiare, role: "Chi sceglie", text: "La struttura del proprio modello interno, costruita non da quanto si è vissuto ma dalla qualità dell'attenzione con cui lo si è vissuto."}
+  - {id: epifania, role: "I segnali", text: "Pensieri che arrivano già formati e non costano. Il problema non è generarli, ma quello che il ragionamento ci costruisce sopra."}
+  - {id: un-campo-due-scale, role: "Le relazioni", text: "Quando due percorsi si incontrano accade una cosa sola, a due scale: l'incontro che spinge il campo e la traccia che resta nella sua geometria."}
+  - {id: geodetica-letterale, role: "Il quadro", text: "Aggiornare un modello a minimo costo è seguire una geodetica: l'energia libera di Friston, il gradiente naturale di Amari e lo spazio latente in un solo quadro."}
+podcast: {title: "Il podcast", text: "Il saggio letto ad alta voce, un capitolo per puntata. Sei episodi, poco più di un'ora."}
+graph:
+  title: "Il grafo del saggio"
+  text: "Tutto ciò che il saggio costruisce, collegato: concetti, termini, tesi, fonti e persone. Ogni voce riporta capitolo e riga del testo da cui viene."
+  open_notice: "Le schede con il bordo arancione hanno punti aperti: questioni che il testo stesso lascia aperte."
+  up_to_chapter: null
+  start: [free-energy-principle, geodetica, stato-peculiare, epifania, campo, metrica-di-fisher]
+  search_placeholder: "Cerca: geodetica, Friston, surprisal…"
+switch: {href: "../", label: "English"}
+output: docs/it
