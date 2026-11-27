@@ -26,4 +26,5 @@ featured:
 podcast_notice: {title: "The podcast", text: "The essay read aloud, one chapter per episode. Six episodes, in Italian.", link: "it/#podcast", label: "Listen in Italian"}
 switch: {href: "it/", label: "Italiano"}
 cname: "quantumfatalism.com"
+analytics: {cloudflare_token: "e697014a2a654ba188ca092a48b41c47"}
 output: docs
